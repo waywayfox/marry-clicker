@@ -1,6 +1,6 @@
 import { Component } from "react";
 import { Button, Radio, Space, Row } from 'antd';
-import {BUILDING_MAX} from './../const.js'
+import { BUILDING_MAX } from './../const.js'
 
 
 const PurchaseMode = {
@@ -223,7 +223,6 @@ class PurchasePanel extends Component {
   handleButtonClick = (e) => {
     const id = e.currentTarget.id;
     const clickResult = this.state.purchaseMode === PurchaseMode.PURCHASE? this.calculateBuyResult(id) : this.calculateSellResult(id);
-    console.log(clickResult);
     this.props.setBuildingAmount(id, clickResult[0], clickResult[1]);
   }
 
