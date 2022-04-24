@@ -10,6 +10,7 @@ export const UpgradeMode = {
 };
 
 export const UpgradeDetailList = [
+  // cursor tiered upgrade
   {
     id: 0,
     price: 100,
@@ -19,1400 +20,1402 @@ export const UpgradeDetailList = [
   {
     id: 1,
     price: 500,
-    title: "Upgrade1",
+    title: "cursorT1",
     description: "upgrade1 description"
   },
   {
     id: 2,
     price: 10000,
-    title: "Upgrade2",
+    title: "cursorT2",
     description: "upgrade2 description"
   },
   {
     id: 3,
     price: 100000,
-    title: "Upgrade3",
+    title: "cursorT3",
     description: "upgrade3 description"
   },
   {
     id: 4,
     price: 1e7,
-    title: "Upgrade4",
+    title: "cursorT4",
     description: "upgrade4 description"
   },
   {
     id: 5,
     price: 1e8,
-    title: "Upgrade5",
+    title: "cursorT5",
     description: "upgrade5 description"
   },
   {
     id: 6,
     price: 1e9,
-    title: "Upgrade6",
+    title: "cursorT6",
     description: "upgrade6 description"
   },
   {
     id: 7,
     price: 1e10,
-    title: "Upgrade7",
+    title: "cursorT7",
     description: "upgrade7 description"
   },
   {
     id: 8,
     price: 1e13,
-    title: "Upgrade8",
+    title: "cursorT8",
     description: "upgrade8 description"
   },
   {
     id: 9,
     price: 1e16,
-    title: "Upgrade9",
+    title: "cursorT9",
     description: "upgrade9 description"
   },
   {
     id: 10,
     price: 1e19,
-    title: "Upgrade10",
+    title: "cursorT10",
     description: "upgrade10 description"
   },
   {
     id: 11,
     price: 1e22,
-    title: "Upgrade11",
+    title: "cursorT11",
     description: "upgrade11 description"
   },
   {
     id: 12,
     price: 1e25,
-    title: "Upgrade12",
+    title: "cursorT12",
     description: "upgrade12 description"
   },
+  // grandma tiered upgrade
   {
     id: 13,
-    price: 100,
-    title: "Upgrade13",
+    price: 1000,
+    title: "grandmaT1",
     description: "upgrade13 description"
   },
   {
     id: 14,
-    price: 100,
-    title: "Upgrade14",
+    price: 5000,
+    title: "grandmaT2",
     description: "upgrade14 description"
   },
   {
     id: 15,
-    price: 100,
-    title: "Upgrade15",
+    price: 50000,
+    title: "grandmaT3",
     description: "upgrade15 description"
   },
   {
     id: 16,
-    price: 100,
-    title: "Upgrade16",
+    price: 5e6,
+    title: "grandmaT4",
     description: "upgrade16 description"
   },
   {
     id: 17,
-    price: 100,
-    title: "Upgrade17",
+    price: 5e8,
+    title: "grandmaT5",
     description: "upgrade17 description"
   },
   {
     id: 18,
-    price: 100,
-    title: "Upgrade18",
+    price: 5e10,
+    title: "grandmaT6",
     description: "upgrade18 description"
   },
   {
     id: 19,
-    price: 100,
-    title: "Upgrade19",
+    price: 5e13,
+    title: "grandmaT7",
     description: "upgrade19 description"
   },
   {
     id: 20,
-    price: 100,
-    title: "Upgrade20",
+    price: 5e16,
+    title: "grandmaT8",
     description: "upgrade20 description"
   },
   {
     id: 21,
-    price: 100,
-    title: "Upgrade21",
+    price: 5e19,
+    title: "grandmaT9",
     description: "upgrade21 description"
   },
   {
     id: 22,
-    price: 100,
-    title: "Upgrade22",
+    price: 5e22,
+    title: "grandmaT10",
     description: "upgrade22 description"
   },
   {
     id: 23,
-    price: 100,
-    title: "Upgrade23",
+    price: 5e26,
+    title: "grandmaT11",
     description: "upgrade23 description"
   },
   {
     id: 24,
-    price: 100,
-    title: "Upgrade24",
+    price: 5e30,
+    title: "grandmaT12",
     description: "upgrade24 description"
   },
   {
     id: 25,
-    price: 100,
-    title: "Upgrade25",
+    price: 5e34,
+    title: "grandmaT13",
     description: "upgrade25 description"
   },
+  //farm tiered upgrade
   {
     id: 26,
-    price: 100,
-    title: "Upgrade26",
-    description: "upgrade26 description"
+    price: 11000,
+    title: "farmT1",
+    description: "double the farm production."
   },
   {
     id: 27,
-    price: 100,
-    title: "Upgrade27",
-    description: "upgrade27 description"
+    price: 55000,
+    title: "farmT2",
+    description: "double the farm production."
   },
   {
     id: 28,
-    price: 100,
-    title: "Upgrade28",
-    description: "upgrade28 description"
+    price: 550000,
+    title: "farmT3",
+    description: "double the farm production."
   },
   {
     id: 29,
-    price: 100,
-    title: "Upgrade29",
-    description: "upgrade29 description"
+    price: 5.5e7,
+    title: "farmT4",
+    description: "double the farm production."
   },
   {
     id: 30,
-    price: 100,
-    title: "Upgrade30",
-    description: "upgrade30 description"
+    price: 5.5e9,
+    title: "farmT5",
+    description: "double the farm production."
   },
   {
     id: 31,
-    price: 100,
-    title: "Upgrade31",
-    description: "upgrade31 description"
+    price: 5.5e11,
+    title: "farmT6",
+    description: "double the farm production."
   },
   {
     id: 32,
-    price: 100,
-    title: "Upgrade32",
-    description: "upgrade32 description"
+    price: 5.5e14,
+    title: "farmT7",
+    description: "double the farm production."
   },
   {
     id: 33,
-    price: 100,
-    title: "Upgrade33",
-    description: "upgrade33 description"
+    price: 5.5e17,
+    title: "farmT8",
+    description: "double the farm production."
   },
   {
     id: 34,
-    price: 100,
-    title: "Upgrade34",
-    description: "upgrade34 description"
+    price: 5.5e20,
+    title: "farmT9",
+    description: "double the farm production."
   },
   {
     id: 35,
-    price: 100,
-    title: "Upgrade35",
-    description: "upgrade35 description"
+    price: 5.5e23,
+    title: "farmT10",
+    description: "double the farm production."
   },
   {
     id: 36,
-    price: 100,
-    title: "Upgrade36",
-    description: "upgrade36 description"
+    price: 5.5e27,
+    title: "farmT11",
+    description: "double the farm production."
   },
   {
     id: 37,
-    price: 100,
-    title: "Upgrade37",
-    description: "upgrade37 description"
+    price: 5.5e31,
+    title: "farmT12",
+    description: "double the farm production."
   },
   {
     id: 38,
-    price: 100,
-    title: "Upgrade38",
-    description: "upgrade38 description"
+    price: 5.5e35,
+    title: "farmT13",
+    description: "double the farm production."
   },
   {
     id: 39,
-    price: 100,
-    title: "Upgrade39",
-    description: "upgrade39 description"
+    price: 120000,
+    title: "MineT1",
+    description: "double the Mine production."
   },
   {
     id: 40,
-    price: 100,
-    title: "Upgrade40",
-    description: "upgrade40 description"
+    price: 600000,
+    title: "MineT2",
+    description: "double the Mine production."
   },
   {
     id: 41,
-    price: 100,
-    title: "Upgrade41",
-    description: "upgrade41 description"
+    price: 6e6,
+    title: "MineT3",
+    description: "double the Mine production."
   },
   {
     id: 42,
-    price: 100,
-    title: "Upgrade42",
-    description: "upgrade42 description"
+    price: 6.0e8,
+    title: "MineT4",
+    description: "double the Mine production."
   },
   {
     id: 43,
-    price: 100,
-    title: "Upgrade43",
-    description: "upgrade43 description"
+    price: 6.0e10,
+    title: "MineT5",
+    description: "double the Mine production."
   },
   {
     id: 44,
-    price: 100,
-    title: "Upgrade44",
-    description: "upgrade44 description"
+    price: 6e12,
+    title: "MineT6",
+    description: "double the Mine production."
   },
   {
     id: 45,
-    price: 100,
-    title: "Upgrade45",
-    description: "upgrade45 description"
+    price: 6e15,
+    title: "MineT7",
+    description: "double the Mine production."
   },
   {
     id: 46,
-    price: 100,
-    title: "Upgrade46",
-    description: "upgrade46 description"
+    price: 6e18,
+    title: "MineT8",
+    description: "double the Mine production."
   },
   {
     id: 47,
-    price: 100,
-    title: "Upgrade47",
-    description: "upgrade47 description"
+    price: 6e21,
+    title: "MineT9",
+    description: "double the Mine production."
   },
   {
     id: 48,
-    price: 100,
-    title: "Upgrade48",
-    description: "upgrade48 description"
+    price: 6e24,
+    title: "MineT10",
+    description: "double the Mine production."
   },
   {
     id: 49,
-    price: 100,
-    title: "Upgrade49",
-    description: "upgrade49 description"
+    price: 6.0e28,
+    title: "MineT11",
+    description: "double the Mine production."
   },
   {
     id: 50,
-    price: 100,
-    title: "Upgrade50",
-    description: "upgrade50 description"
+    price: 6.0e32,
+    title: "MineT12",
+    description: "double the Mine production."
   },
   {
     id: 51,
-    price: 100,
-    title: "Upgrade51",
-    description: "upgrade51 description"
+    price: 6e36,
+    title: "MineT13",
+    description: "double the Mine production."
   },
   {
     id: 52,
-    price: 100,
-    title: "Upgrade52",
-    description: "upgrade52 description"
+    price: 1.3e6,
+    title: "FactoryT1",
+    description: "double the Factory production."
   },
   {
     id: 53,
-    price: 100,
-    title: "Upgrade53",
-    description: "upgrade53 description"
+    price: 6.5e6,
+    title: "FactoryT2",
+    description: "double the Factory production."
   },
   {
     id: 54,
-    price: 100,
-    title: "Upgrade54",
-    description: "upgrade54 description"
+    price: 6.5e7,
+    title: "FactoryT3",
+    description: "double the Factory production."
   },
   {
     id: 55,
-    price: 100,
-    title: "Upgrade55",
-    description: "upgrade55 description"
+    price: 6.5e9,
+    title: "FactoryT4",
+    description: "double the Factory production."
   },
   {
     id: 56,
-    price: 100,
-    title: "Upgrade56",
-    description: "upgrade56 description"
+    price: 6.5e11,
+    title: "FactoryT5",
+    description: "double the Factory production."
   },
   {
     id: 57,
-    price: 100,
-    title: "Upgrade57",
-    description: "upgrade57 description"
+    price: 6.5e13,
+    title: "FactoryT6",
+    description: "double the Factory production."
   },
   {
     id: 58,
-    price: 100,
-    title: "Upgrade58",
-    description: "upgrade58 description"
+    price: 6.5e16,
+    title: "FactoryT7",
+    description: "double the Factory production."
   },
   {
     id: 59,
-    price: 100,
-    title: "Upgrade59",
-    description: "upgrade59 description"
+    price: 6.5e19,
+    title: "FactoryT8",
+    description: "double the Factory production."
   },
   {
     id: 60,
-    price: 100,
-    title: "Upgrade60",
-    description: "upgrade60 description"
+    price: 6.5e22,
+    title: "FactoryT9",
+    description: "double the Factory production."
   },
   {
     id: 61,
-    price: 100,
-    title: "Upgrade61",
-    description: "upgrade61 description"
+    price: 6.5e25,
+    title: "FactoryT10",
+    description: "double the Factory production."
   },
   {
     id: 62,
-    price: 100,
-    title: "Upgrade62",
-    description: "upgrade62 description"
+    price: 6.5e29,
+    title: "FactoryT11",
+    description: "double the Factory production."
   },
   {
     id: 63,
-    price: 100,
-    title: "Upgrade63",
-    description: "upgrade63 description"
+    price: 6.5e33,
+    title: "FactoryT12",
+    description: "double the Factory production."
   },
   {
     id: 64,
-    price: 100,
-    title: "Upgrade64",
-    description: "upgrade64 description"
+    price: 6.5e37,
+    title: "FactoryT13",
+    description: "double the Factory production."
   },
   {
     id: 65,
-    price: 100,
-    title: "Upgrade65",
-    description: "upgrade65 description"
+    price: 1.4e7,
+    title: "BankT1",
+    description: "double the Bank production."
   },
   {
     id: 66,
-    price: 100,
-    title: "Upgrade66",
-    description: "upgrade66 description"
+    price: 7.0e7,
+    title: "BankT2",
+    description: "double the Bank production."
   },
   {
     id: 67,
-    price: 100,
-    title: "Upgrade67",
-    description: "upgrade67 description"
+    price: 7.0e8,
+    title: "BankT3",
+    description: "double the Bank production."
   },
   {
     id: 68,
-    price: 100,
-    title: "Upgrade68",
-    description: "upgrade68 description"
+    price: 7.0e10,
+    title: "BankT4",
+    description: "double the Bank production."
   },
   {
     id: 69,
-    price: 100,
-    title: "Upgrade69",
-    description: "upgrade69 description"
+    price: 7e12,
+    title: "BankT5",
+    description: "double the Bank production."
   },
   {
     id: 70,
-    price: 100,
-    title: "Upgrade70",
-    description: "upgrade70 description"
+    price: 7.0e14,
+    title: "BankT6",
+    description: "double the Bank production."
   },
   {
     id: 71,
-    price: 100,
-    title: "Upgrade71",
-    description: "upgrade71 description"
+    price: 7.0e17,
+    title: "BankT7",
+    description: "double the Bank production."
   },
   {
     id: 72,
-    price: 100,
-    title: "Upgrade72",
-    description: "upgrade72 description"
+    price: 7.0e20,
+    title: "BankT8",
+    description: "double the Bank production."
   },
   {
     id: 73,
-    price: 100,
-    title: "Upgrade73",
-    description: "upgrade73 description"
+    price: 7.0e23,
+    title: "BankT9",
+    description: "double the Bank production."
   },
   {
     id: 74,
-    price: 100,
-    title: "Upgrade74",
-    description: "upgrade74 description"
+    price: 7.0e26,
+    title: "BankT10",
+    description: "double the Bank production."
   },
   {
     id: 75,
-    price: 100,
-    title: "Upgrade75",
-    description: "upgrade75 description"
+    price: 7e30,
+    title: "BankT11",
+    description: "double the Bank production."
   },
   {
     id: 76,
-    price: 100,
-    title: "Upgrade76",
-    description: "upgrade76 description"
+    price: 7.0e34,
+    title: "BankT12",
+    description: "double the Bank production."
   },
   {
     id: 77,
-    price: 100,
-    title: "Upgrade77",
-    description: "upgrade77 description"
+    price: 7.0e38,
+    title: "BankT13",
+    description: "double the Bank production."
   },
   {
     id: 78,
-    price: 100,
-    title: "Upgrade78",
-    description: "upgrade78 description"
+    price: 2.0e8,
+    title: "TempleT1",
+    description: "double the Temple production."
   },
   {
     id: 79,
-    price: 100,
-    title: "Upgrade79",
-    description: "upgrade79 description"
+    price: 1e9,
+    title: "TempleT2",
+    description: "double the Temple production."
   },
   {
     id: 80,
-    price: 100,
-    title: "Upgrade80",
-    description: "upgrade80 description"
+    price: 10e9,
+    title: "TempleT3",
+    description: "double the Temple production."
   },
   {
     id: 81,
-    price: 100,
-    title: "Upgrade81",
-    description: "upgrade81 description"
+    price: 1e12,
+    title: "TempleT4",
+    description: "double the Temple production."
   },
   {
     id: 82,
-    price: 100,
-    title: "Upgrade82",
-    description: "upgrade82 description"
+    price: 10.0e13,
+    title: "TempleT5",
+    description: "double the Temple production."
   },
   {
     id: 83,
-    price: 100,
-    title: "Upgrade83",
-    description: "upgrade83 description"
+    price: 10e15,
+    title: "TempleT6",
+    description: "double the Temple production."
   },
   {
     id: 84,
-    price: 100,
-    title: "Upgrade84",
-    description: "upgrade84 description"
+    price: 10e18,
+    title: "TempleT7",
+    description: "double the Temple production."
   },
   {
     id: 85,
-    price: 100,
-    title: "Upgrade85",
-    description: "upgrade85 description"
+    price: 10e21,
+    title: "TempleT8",
+    description: "double the Temple production."
   },
   {
     id: 86,
-    price: 100,
-    title: "Upgrade86",
-    description: "upgrade86 description"
+    price: 10e24,
+    title: "TempleT9",
+    description: "double the Temple production."
   },
   {
     id: 87,
-    price: 100,
-    title: "Upgrade87",
-    description: "upgrade87 description"
+    price: 10e27,
+    title: "TempleT10",
+    description: "double the Temple production."
   },
   {
     id: 88,
-    price: 100,
-    title: "Upgrade88",
-    description: "upgrade88 description"
+    price: 10.0e31,
+    title: "TempleT11",
+    description: "double the Temple production."
   },
   {
     id: 89,
-    price: 100,
-    title: "Upgrade89",
-    description: "upgrade89 description"
+    price: 1e36,
+    title: "TempleT12",
+    description: "double the Temple production."
   },
   {
     id: 90,
-    price: 100,
-    title: "Upgrade90",
-    description: "upgrade90 description"
+    price: 10e39,
+    title: "TempleT13",
+    description: "double the Temple production."
   },
   {
     id: 91,
-    price: 100,
-    title: "Upgrade91",
-    description: "upgrade91 description"
+    price: 3.3e9,
+    title: "WizardT1",
+    description: "double the Wizard production."
   },
   {
     id: 92,
-    price: 100,
-    title: "Upgrade92",
-    description: "upgrade92 description"
+    price: 1.65e10,
+    title: "WizardT2",
+    description: "double the Wizard production."
   },
   {
     id: 93,
-    price: 100,
-    title: "Upgrade93",
-    description: "upgrade93 description"
+    price: 1.65e11,
+    title: "WizardT3",
+    description: "double the Wizard production."
   },
   {
     id: 94,
-    price: 100,
-    title: "Upgrade94",
-    description: "upgrade94 description"
+    price: 1.65e13,
+    title: "WizardT4",
+    description: "double the Wizard production."
   },
   {
     id: 95,
-    price: 100,
-    title: "Upgrade95",
-    description: "upgrade95 description"
+    price: 1.65e15,
+    title: "WizardT5",
+    description: "double the Wizard production."
   },
   {
     id: 96,
-    price: 100,
-    title: "Upgrade96",
-    description: "upgrade96 description"
+    price: 1.65e17,
+    title: "WizardT6",
+    description: "double the Wizard production."
   },
   {
     id: 97,
-    price: 100,
-    title: "Upgrade97",
-    description: "upgrade97 description"
+    price: 1.65e20,
+    title: "WizardT7",
+    description: "double the Wizard production."
   },
   {
     id: 98,
-    price: 100,
-    title: "Upgrade98",
-    description: "upgrade98 description"
+    price: 1.65e23,
+    title: "WizardT8",
+    description: "double the Wizard production."
   },
   {
     id: 99,
-    price: 100,
-    title: "Upgrade99",
-    description: "upgrade99 description"
+    price: 1.65e26,
+    title: "WizardT9",
+    description: "double the Wizard production."
   },
   {
     id: 100,
-    price: 100,
-    title: "Upgrade100",
-    description: "upgrade100 description"
+    price: 1.65e29,
+    title: "WizardT10",
+    description: "double the Wizard production."
   },
   {
     id: 101,
-    price: 100,
-    title: "Upgrade101",
-    description: "upgrade101 description"
+    price: 1.65e33,
+    title: "WizardT11",
+    description: "double the Wizard production."
   },
   {
     id: 102,
-    price: 100,
-    title: "Upgrade102",
-    description: "upgrade102 description"
+    price: 1.65e36,
+    title: "WizardT12",
+    description: "double the Wizard production."
   },
   {
     id: 103,
-    price: 100,
-    title: "Upgrade103",
-    description: "upgrade103 description"
+    price: 1.65e41,
+    title: "WizardT13",
+    description: "double the Wizard production."
   },
   {
     id: 104,
-    price: 100,
-    title: "Upgrade104",
-    description: "upgrade104 description"
+    price: 5.1e10,
+    title: "ShipmentT1",
+    description: "double the Shipment production."
   },
   {
     id: 105,
-    price: 100,
-    title: "Upgrade105",
-    description: "upgrade105 description"
+    price: 2.55e11,
+    title: "ShipmentT2",
+    description: "double the Shipment production."
   },
   {
     id: 106,
-    price: 100,
-    title: "Upgrade106",
-    description: "upgrade106 description"
+    price: 2.55e12,
+    title: "ShipmentT3",
+    description: "double the Shipment production."
   },
   {
     id: 107,
-    price: 100,
-    title: "Upgrade107",
-    description: "upgrade107 description"
+    price: 2.55e14,
+    title: "ShipmentT4",
+    description: "double the Shipment production."
   },
   {
     id: 108,
-    price: 100,
-    title: "Upgrade108",
-    description: "upgrade108 description"
+    price: 2.55e16,
+    title: "ShipmentT5",
+    description: "double the Shipment production."
   },
   {
     id: 109,
-    price: 100,
-    title: "Upgrade109",
-    description: "upgrade109 description"
+    price: 2.55e18,
+    title: "ShipmentT6",
+    description: "double the Shipment production."
   },
   {
     id: 110,
-    price: 100,
-    title: "Upgrade110",
-    description: "upgrade110 description"
+    price: 2.55e21,
+    title: "ShipmentT7",
+    description: "double the Shipment production."
   },
   {
     id: 111,
-    price: 100,
-    title: "Upgrade111",
-    description: "upgrade111 description"
+    price: 2.55e24,
+    title: "ShipmentT8",
+    description: "double the Shipment production."
   },
   {
     id: 112,
-    price: 100,
-    title: "Upgrade112",
-    description: "upgrade112 description"
+    price: 2.55e27,
+    title: "ShipmentT9",
+    description: "double the Shipment production."
   },
   {
     id: 113,
-    price: 100,
-    title: "Upgrade113",
-    description: "upgrade113 description"
+    price: 2.55e30,
+    title: "ShipmentT10",
+    description: "double the Shipment production."
   },
   {
     id: 114,
-    price: 100,
-    title: "Upgrade114",
-    description: "upgrade114 description"
+    price: 2.55e34,
+    title: "ShipmentT11",
+    description: "double the Shipment production."
   },
   {
     id: 115,
-    price: 100,
-    title: "Upgrade115",
-    description: "upgrade115 description"
+    price: 2.55e38,
+    title: "ShipmentT12",
+    description: "double the Shipment production."
   },
   {
     id: 116,
-    price: 100,
-    title: "Upgrade116",
-    description: "upgrade116 description"
+    price: 2.55e42,
+    title: "ShipmentT13",
+    description: "double the Shipment production."
   },
   {
     id: 117,
-    price: 100,
-    title: "Upgrade117",
-    description: "upgrade117 description"
+    price: 7.5e11,
+    title: "AlchemyT1",
+    description: "double the Alchemy production."
   },
   {
     id: 118,
-    price: 100,
-    title: "Upgrade118",
-    description: "upgrade118 description"
+    price: 3.75e12,
+    title: "AlchemyT2",
+    description: "double the Alchemy production."
   },
   {
     id: 119,
-    price: 100,
-    title: "Upgrade119",
-    description: "upgrade119 description"
+    price: 3.75e13,
+    title: "AlchemyT3",
+    description: "double the Alchemy production."
   },
   {
     id: 120,
-    price: 100,
-    title: "Upgrade120",
-    description: "upgrade120 description"
+    price: 3.75e15,
+    title: "AlchemyT4",
+    description: "double the Alchemy production."
   },
   {
     id: 121,
-    price: 100,
-    title: "Upgrade121",
-    description: "upgrade121 description"
+    price: 3.75e17,
+    title: "AlchemyT5",
+    description: "double the Alchemy production."
   },
   {
     id: 122,
-    price: 100,
-    title: "Upgrade122",
-    description: "upgrade122 description"
+    price: 3.75e19,
+    title: "AlchemyT6",
+    description: "double the Alchemy production."
   },
   {
     id: 123,
-    price: 100,
-    title: "Upgrade123",
-    description: "upgrade123 description"
+    price: 3.75e22,
+    title: "AlchemyT7",
+    description: "double the Alchemy production."
   },
   {
     id: 124,
-    price: 100,
-    title: "Upgrade124",
-    description: "upgrade124 description"
+    price: 3.75e25,
+    title: "AlchemyT8",
+    description: "double the Alchemy production."
   },
   {
     id: 125,
-    price: 100,
-    title: "Upgrade125",
-    description: "upgrade125 description"
+    price: 3.75e28,
+    title: "AlchemyT9",
+    description: "double the Alchemy production."
   },
   {
     id: 126,
-    price: 100,
-    title: "Upgrade126",
-    description: "upgrade126 description"
+    price: 3.75e31,
+    title: "AlchemyT10",
+    description: "double the Alchemy production."
   },
   {
     id: 127,
-    price: 100,
-    title: "Upgrade127",
-    description: "upgrade127 description"
+    price: 3.75e35,
+    title: "AlchemyT11",
+    description: "double the Alchemy production."
   },
   {
     id: 128,
-    price: 100,
-    title: "Upgrade128",
-    description: "upgrade128 description"
+    price: 3.75e39,
+    title: "AlchemyT12",
+    description: "double the Alchemy production."
   },
   {
     id: 129,
-    price: 100,
-    title: "Upgrade129",
-    description: "upgrade129 description"
+    price: 3.75e43,
+    title: "AlchemyT13",
+    description: "double the Alchemy production."
   },
   {
     id: 130,
-    price: 100,
-    title: "Upgrade130",
-    description: "upgrade130 description"
+    price: 10e12,
+    title: "PortalT1",
+    description: "double the Portal production."
   },
   {
     id: 131,
-    price: 100,
-    title: "Upgrade131",
-    description: "upgrade131 description"
+    price: 5.0e13,
+    title: "PortalT2",
+    description: "double the Portal production."
   },
   {
     id: 132,
-    price: 100,
-    title: "Upgrade132",
-    description: "upgrade132 description"
+    price: 5.0e14,
+    title: "PortalT3",
+    description: "double the Portal production."
   },
   {
     id: 133,
-    price: 100,
-    title: "Upgrade133",
-    description: "upgrade133 description"
+    price: 5.0e16,
+    title: "PortalT4",
+    description: "double the Portal production."
   },
   {
     id: 134,
-    price: 100,
-    title: "Upgrade134",
-    description: "upgrade134 description"
+    price: 5e18,
+    title: "PortalT5",
+    description: "double the Portal production."
   },
   {
     id: 135,
-    price: 100,
-    title: "Upgrade135",
-    description: "upgrade135 description"
+    price: 5.0e20,
+    title: "PortalT6",
+    description: "double the Portal production."
   },
   {
     id: 136,
-    price: 100,
-    title: "Upgrade136",
-    description: "upgrade136 description"
+    price: 5.0e23,
+    title: "PortalT7",
+    description: "double the Portal production."
   },
   {
     id: 137,
-    price: 100,
-    title: "Upgrade137",
-    description: "upgrade137 description"
+    price: 5.0e26,
+    title: "PortalT8",
+    description: "double the Portal production."
   },
   {
     id: 138,
-    price: 100,
-    title: "Upgrade138",
-    description: "upgrade138 description"
+    price: 5.0e29,
+    title: "PortalT9",
+    description: "double the Portal production."
   },
   {
     id: 139,
-    price: 100,
-    title: "Upgrade139",
-    description: "upgrade139 description"
+    price: 5.0e32,
+    title: "PortalT10",
+    description: "double the Portal production."
   },
   {
     id: 140,
-    price: 100,
-    title: "Upgrade140",
-    description: "upgrade140 description"
+    price: 5e36,
+    title: "PortalT11",
+    description: "double the Portal production."
   },
   {
     id: 141,
-    price: 100,
-    title: "Upgrade141",
-    description: "upgrade141 description"
+    price: 5.0e40,
+    title: "PortalT12",
+    description: "double the Portal production."
   },
   {
     id: 142,
-    price: 100,
-    title: "Upgrade142",
-    description: "upgrade142 description"
+    price: 5.0e44,
+    title: "PortalT13",
+    description: "double the Portal production."
   },
   {
     id: 143,
-    price: 100,
-    title: "Upgrade143",
-    description: "upgrade143 description"
+    price: 1.4e14,
+    title: "TimeMachineT1",
+    description: "double the TimeMachine production."
   },
   {
     id: 144,
-    price: 100,
-    title: "Upgrade144",
-    description: "upgrade144 description"
+    price: 7.0e14,
+    title: "TimeMachineT2",
+    description: "double the TimeMachine production."
   },
   {
     id: 145,
-    price: 100,
-    title: "Upgrade145",
-    description: "upgrade145 description"
+    price: 7e15,
+    title: "TimeMachineT3",
+    description: "double the TimeMachine production."
   },
   {
     id: 146,
-    price: 100,
-    title: "Upgrade146",
-    description: "upgrade146 description"
+    price: 7.0e17,
+    title: "TimeMachineT4",
+    description: "double the TimeMachine production."
   },
   {
     id: 147,
-    price: 100,
-    title: "Upgrade147",
-    description: "upgrade147 description"
+    price: 7.0e19,
+    title: "TimeMachineT5",
+    description: "double the TimeMachine production."
   },
   {
     id: 148,
-    price: 100,
-    title: "Upgrade148",
-    description: "upgrade148 description"
+    price: 7e21,
+    title: "TimeMachineT6",
+    description: "double the TimeMachine production."
   },
   {
     id: 149,
-    price: 100,
-    title: "Upgrade149",
-    description: "upgrade149 description"
+    price: 7e24,
+    title: "TimeMachineT7",
+    description: "double the TimeMachine production."
   },
   {
     id: 150,
-    price: 100,
-    title: "Upgrade150",
-    description: "upgrade150 description"
+    price: 7e27,
+    title: "TimeMachineT8",
+    description: "double the TimeMachine production."
   },
   {
     id: 151,
-    price: 100,
-    title: "Upgrade151",
-    description: "upgrade151 description"
+    price: 7e30,
+    title: "TimeMachineT9",
+    description: "double the TimeMachine production."
   },
   {
     id: 152,
-    price: 100,
-    title: "Upgrade152",
-    description: "upgrade152 description"
+    price: 7e33,
+    title: "TimeMachineT10",
+    description: "double the TimeMachine production."
   },
   {
     id: 153,
-    price: 100,
-    title: "Upgrade153",
-    description: "upgrade153 description"
+    price: 7.0e37,
+    title: "TimeMachineT11",
+    description: "double the TimeMachine production."
   },
   {
     id: 154,
-    price: 100,
-    title: "Upgrade154",
-    description: "upgrade154 description"
+    price: 7.0e41,
+    title: "TimeMachineT12",
+    description: "double the TimeMachine production."
   },
   {
     id: 155,
-    price: 100,
-    title: "Upgrade155",
-    description: "upgrade155 description"
+    price: 7e45,
+    title: "TimeMachineT13",
+    description: "double the TimeMachine production."
   },
   {
     id: 156,
-    price: 100,
-    title: "Upgrade156",
-    description: "upgrade156 description"
+    price: 1.7e15,
+    title: "AntimatterCondenserT1",
+    description: "double the AntimatterCondenser production."
   },
   {
     id: 157,
-    price: 100,
-    title: "Upgrade157",
-    description: "upgrade157 description"
+    price: 8.5e15,
+    title: "AntimatterCondenserT2",
+    description: "double the AntimatterCondenser production."
   },
   {
     id: 158,
-    price: 100,
-    title: "Upgrade158",
-    description: "upgrade158 description"
+    price: 8.5e16,
+    title: "AntimatterCondenserT3",
+    description: "double the AntimatterCondenser production."
   },
   {
     id: 159,
-    price: 100,
-    title: "Upgrade159",
-    description: "upgrade159 description"
+    price: 8.5e18,
+    title: "AntimatterCondenserT4",
+    description: "double the AntimatterCondenser production."
   },
   {
     id: 160,
-    price: 100,
-    title: "Upgrade160",
-    description: "upgrade160 description"
+    price: 8.5e20,
+    title: "AntimatterCondenserT5",
+    description: "double the AntimatterCondenser production."
   },
   {
     id: 161,
-    price: 100,
-    title: "Upgrade161",
-    description: "upgrade161 description"
+    price: 8.5e22,
+    title: "AntimatterCondenserT6",
+    description: "double the AntimatterCondenser production."
   },
   {
     id: 162,
-    price: 100,
-    title: "Upgrade162",
-    description: "upgrade162 description"
+    price: 8.5e25,
+    title: "AntimatterCondenserT7",
+    description: "double the AntimatterCondenser production."
   },
   {
     id: 163,
-    price: 100,
-    title: "Upgrade163",
-    description: "upgrade163 description"
+    price: 8.5e28,
+    title: "AntimatterCondenserT8",
+    description: "double the AntimatterCondenser production."
   },
   {
     id: 164,
-    price: 100,
-    title: "Upgrade164",
-    description: "upgrade164 description"
+    price: 8.5e31,
+    title: "AntimatterCondenserT9",
+    description: "double the AntimatterCondenser production."
   },
   {
     id: 165,
-    price: 100,
-    title: "Upgrade165",
-    description: "upgrade165 description"
+    price: 8.5e34,
+    title: "AntimatterCondenserT10",
+    description: "double the AntimatterCondenser production."
   },
   {
     id: 166,
-    price: 100,
-    title: "Upgrade166",
-    description: "upgrade166 description"
+    price: 8.5e38,
+    title: "AntimatterCondenserT11",
+    description: "double the AntimatterCondenser production."
   },
   {
     id: 167,
-    price: 100,
-    title: "Upgrade167",
-    description: "upgrade167 description"
+    price: 8.5e42,
+    title: "AntimatterCondenserT12",
+    description: "double the AntimatterCondenser production."
   },
   {
     id: 168,
-    price: 100,
-    title: "Upgrade168",
-    description: "upgrade168 description"
+    price: 8.5e46,
+    title: "AntimatterCondenserT13",
+    description: "double the AntimatterCondenser production."
   },
   {
     id: 169,
-    price: 100,
-    title: "Upgrade169",
-    description: "upgrade169 description"
+    price: 2.1e16,
+    title: "PrismT1",
+    description: "double the Prism production."
   },
   {
     id: 170,
-    price: 100,
-    title: "Upgrade170",
-    description: "upgrade170 description"
+    price: 1.05e17,
+    title: "PrismT2",
+    description: "double the Prism production."
   },
   {
     id: 171,
-    price: 100,
-    title: "Upgrade171",
-    description: "upgrade171 description"
+    price: 1.05e18,
+    title: "PrismT3",
+    description: "double the Prism production."
   },
   {
     id: 172,
-    price: 100,
-    title: "Upgrade172",
-    description: "upgrade172 description"
+    price: 1.05e20,
+    title: "PrismT4",
+    description: "double the Prism production."
   },
   {
     id: 173,
-    price: 100,
-    title: "Upgrade173",
-    description: "upgrade173 description"
+    price: 1.05e22,
+    title: "PrismT5",
+    description: "double the Prism production."
   },
   {
     id: 174,
-    price: 100,
-    title: "Upgrade174",
-    description: "upgrade174 description"
+    price: 1.05e24,
+    title: "PrismT6",
+    description: "double the Prism production."
   },
   {
     id: 175,
-    price: 100,
-    title: "Upgrade175",
-    description: "upgrade175 description"
+    price: 1.05e27,
+    title: "PrismT7",
+    description: "double the Prism production."
   },
   {
     id: 176,
-    price: 100,
-    title: "Upgrade176",
-    description: "upgrade176 description"
+    price: 1.05e30,
+    title: "PrismT8",
+    description: "double the Prism production."
   },
   {
     id: 177,
-    price: 100,
-    title: "Upgrade177",
-    description: "upgrade177 description"
+    price: 1.05e33,
+    title: "PrismT9",
+    description: "double the Prism production."
   },
   {
     id: 178,
-    price: 100,
-    title: "Upgrade178",
-    description: "upgrade178 description"
+    price: 1.05e36,
+    title: "PrismT10",
+    description: "double the Prism production."
   },
   {
     id: 179,
-    price: 100,
-    title: "Upgrade179",
-    description: "upgrade179 description"
+    price: 1.05e40,
+    title: "PrismT11",
+    description: "double the Prism production."
   },
   {
     id: 180,
-    price: 100,
-    title: "Upgrade180",
-    description: "upgrade180 description"
+    price: 1.05e44,
+    title: "PrismT12",
+    description: "double the Prism production."
   },
   {
     id: 181,
-    price: 100,
-    title: "Upgrade181",
-    description: "upgrade181 description"
+    price: 1.05e48,
+    title: "PrismT13",
+    description: "double the Prism production."
   },
   {
     id: 182,
-    price: 100,
-    title: "Upgrade182",
-    description: "upgrade182 description"
+    price: 2.6e17,
+    title: "FractalEngineT1",
+    description: "double the FractalEngine production."
   },
   {
     id: 183,
-    price: 100,
-    title: "Upgrade183",
-    description: "upgrade183 description"
+    price: 1.3e18,
+    title: "FractalEngineT2",
+    description: "double the FractalEngine production."
   },
   {
     id: 184,
-    price: 100,
-    title: "Upgrade184",
-    description: "upgrade184 description"
+    price: 1.3e19,
+    title: "FractalEngineT3",
+    description: "double the FractalEngine production."
   },
   {
     id: 185,
-    price: 100,
-    title: "Upgrade185",
-    description: "upgrade185 description"
+    price: 1.3e21,
+    title: "FractalEngineT4",
+    description: "double the FractalEngine production."
   },
   {
     id: 186,
-    price: 100,
-    title: "Upgrade186",
-    description: "upgrade186 description"
+    price: 1.3e23,
+    title: "FractalEngineT5",
+    description: "double the FractalEngine production."
   },
   {
     id: 187,
-    price: 100,
-    title: "Upgrade187",
-    description: "upgrade187 description"
+    price: 1.3e25,
+    title: "FractalEngineT6",
+    description: "double the FractalEngine production."
   },
   {
     id: 188,
-    price: 100,
-    title: "Upgrade188",
-    description: "upgrade188 description"
+    price: 1.3e28,
+    title: "FractalEngineT7",
+    description: "double the FractalEngine production."
   },
   {
     id: 189,
-    price: 100,
-    title: "Upgrade189",
-    description: "upgrade189 description"
+    price: 1.3e31,
+    title: "FractalEngineT8",
+    description: "double the FractalEngine production."
   },
   {
     id: 190,
-    price: 100,
-    title: "Upgrade190",
-    description: "upgrade190 description"
+    price: 1.3e34,
+    title: "FractalEngineT9",
+    description: "double the FractalEngine production."
   },
   {
     id: 191,
-    price: 100,
-    title: "Upgrade191",
-    description: "upgrade191 description"
+    price: 1.3e37,
+    title: "FractalEngineT10",
+    description: "double the FractalEngine production."
   },
   {
     id: 192,
-    price: 100,
-    title: "Upgrade192",
-    description: "upgrade192 description"
+    price: 1.3e41,
+    title: "FractalEngineT11",
+    description: "double the FractalEngine production."
   },
   {
     id: 193,
-    price: 100,
-    title: "Upgrade193",
-    description: "upgrade193 description"
+    price: 1.3e45,
+    title: "FractalEngineT12",
+    description: "double the FractalEngine production."
   },
   {
     id: 194,
-    price: 100,
-    title: "Upgrade194",
-    description: "upgrade194 description"
+    price: 1.3e46,
+    title: "FractalEngineT13",
+    description: "double the FractalEngine production."
   },
   {
     id: 195,
-    price: 100,
-    title: "Upgrade195",
-    description: "upgrade195 description"
+    price: 3.1e18,
+    title: "ChancemakerT1",
+    description: "double the Chancemaker production."
   },
   {
     id: 196,
-    price: 100,
-    title: "Upgrade196",
-    description: "upgrade196 description"
+    price: 1.55e19,
+    title: "ChancemakerT2",
+    description: "double the Chancemaker production."
   },
   {
     id: 197,
-    price: 100,
-    title: "Upgrade197",
-    description: "upgrade197 description"
+    price: 1.55e20,
+    title: "ChancemakerT3",
+    description: "double the Chancemaker production."
   },
   {
     id: 198,
-    price: 100,
-    title: "Upgrade198",
-    description: "upgrade198 description"
+    price: 1.55e22,
+    title: "ChancemakerT4",
+    description: "double the Chancemaker production."
   },
   {
     id: 199,
-    price: 100,
-    title: "Upgrade199",
-    description: "upgrade199 description"
+    price: 1.55e24,
+    title: "ChancemakerT5",
+    description: "double the Chancemaker production."
   },
   {
     id: 200,
-    price: 100,
-    title: "Upgrade200",
-    description: "upgrade200 description"
+    price: 1.55e26,
+    title: "ChancemakerT6",
+    description: "double the Chancemaker production."
   },
   {
     id: 201,
-    price: 100,
-    title: "Upgrade201",
-    description: "upgrade201 description"
+    price: 1.55e29,
+    title: "ChancemakerT7",
+    description: "double the Chancemaker production."
   },
   {
     id: 202,
-    price: 100,
-    title: "Upgrade202",
-    description: "upgrade202 description"
+    price: 1.55e32,
+    title: "ChancemakerT8",
+    description: "double the Chancemaker production."
   },
   {
     id: 203,
-    price: 100,
-    title: "Upgrade203",
-    description: "upgrade203 description"
+    price: 1.55e35,
+    title: "ChancemakerT9",
+    description: "double the Chancemaker production."
   },
   {
     id: 204,
-    price: 100,
-    title: "Upgrade204",
-    description: "upgrade204 description"
+    price: 1.55e38,
+    title: "ChancemakerT10",
+    description: "double the Chancemaker production."
   },
   {
     id: 205,
-    price: 100,
-    title: "Upgrade205",
-    description: "upgrade205 description"
+    price: 1.55e42,
+    title: "ChancemakerT11",
+    description: "double the Chancemaker production."
   },
   {
     id: 206,
-    price: 100,
-    title: "Upgrade206",
-    description: "upgrade206 description"
+    price: 1.55e46,
+    title: "ChancemakerT12",
+    description: "double the Chancemaker production."
   },
   {
     id: 207,
-    price: 100,
-    title: "Upgrade207",
-    description: "upgrade207 description"
+    price: 1.55e50,
+    title: "ChancemakerT13",
+    description: "double the Chancemaker production."
   },
   {
     id: 208,
-    price: 100,
-    title: "Upgrade208",
-    description: "upgrade208 description"
+    price: 7.1e20,
+    title: "Javascript ConsoleT1",
+    description: "double the Javascript Console production."
   },
   {
     id: 209,
-    price: 100,
-    title: "Upgrade209",
-    description: "upgrade209 description"
+    price: 3.55e21,
+    title: "Javascript ConsoleT2",
+    description: "double the Javascript Console production."
   },
   {
     id: 210,
-    price: 100,
-    title: "Upgrade210",
-    description: "upgrade210 description"
+    price: 3.55e22,
+    title: "Javascript ConsoleT3",
+    description: "double the Javascript Console production."
   },
   {
     id: 211,
-    price: 100,
-    title: "Upgrade211",
-    description: "upgrade211 description"
+    price: 3.55e24,
+    title: "Javascript ConsoleT4",
+    description: "double the Javascript Console production."
   },
   {
     id: 212,
-    price: 100,
-    title: "Upgrade212",
-    description: "upgrade212 description"
+    price: 3.55e26,
+    title: "Javascript ConsoleT5",
+    description: "double the Javascript Console production."
   },
   {
     id: 213,
-    price: 100,
-    title: "Upgrade213",
-    description: "upgrade213 description"
+    price: 3.55e28,
+    title: "Javascript ConsoleT6",
+    description: "double the Javascript Console production."
   },
   {
     id: 214,
-    price: 100,
-    title: "Upgrade214",
-    description: "upgrade214 description"
+    price: 3.55e31,
+    title: "Javascript ConsoleT7",
+    description: "double the Javascript Console production."
   },
   {
     id: 215,
-    price: 100,
-    title: "Upgrade215",
-    description: "upgrade215 description"
+    price: 3.55e34,
+    title: "Javascript ConsoleT8",
+    description: "double the Javascript Console production."
   },
   {
     id: 216,
-    price: 100,
-    title: "Upgrade216",
-    description: "upgrade216 description"
+    price: 3.55e37,
+    title: "Javascript ConsoleT9",
+    description: "double the Javascript Console production."
   },
   {
     id: 217,
-    price: 100,
-    title: "Upgrade217",
-    description: "upgrade217 description"
+    price: 3.55e40,
+    title: "Javascript ConsoleT10",
+    description: "double the Javascript Console production."
   },
   {
     id: 218,
-    price: 100,
-    title: "Upgrade218",
-    description: "upgrade218 description"
+    price: 3.55e44,
+    title: "Javascript ConsoleT11",
+    description: "double the Javascript Console production."
   },
   {
     id: 219,
-    price: 100,
-    title: "Upgrade219",
-    description: "upgrade219 description"
+    price: 3.55e48,
+    title: "Javascript ConsoleT12",
+    description: "double the Javascript Console production."
   },
   {
     id: 220,
-    price: 100,
-    title: "Upgrade220",
-    description: "upgrade220 description"
+    price: 3.55e52,
+    title: "Javascript ConsoleT13",
+    description: "double the Javascript Console production."
   },
   {
     id: 221,
-    price: 100,
-    title: "Upgrade221",
-    description: "upgrade221 description"
+    price: 1.2e23,
+    title: "IdleverseT1",
+    description: "double the Idleverse production."
   },
   {
     id: 222,
-    price: 100,
-    title: "Upgrade222",
-    description: "upgrade222 description"
+    price: 6.0e23,
+    title: "IdleverseT2",
+    description: "double the Idleverse production."
   },
   {
     id: 223,
-    price: 100,
-    title: "Upgrade223",
-    description: "upgrade223 description"
+    price: 6e24,
+    title: "IdleverseT3",
+    description: "double the Idleverse production."
   },
   {
     id: 224,
-    price: 100,
-    title: "Upgrade224",
-    description: "upgrade224 description"
+    price: 6.0e26,
+    title: "IdleverseT4",
+    description: "double the Idleverse production."
   },
   {
     id: 225,
-    price: 100,
-    title: "Upgrade225",
-    description: "upgrade225 description"
+    price: 6.0e28,
+    title: "IdleverseT5",
+    description: "double the Idleverse production."
   },
   {
     id: 226,
-    price: 100,
-    title: "Upgrade226",
-    description: "upgrade226 description"
+    price: 6e30,
+    title: "IdleverseT6",
+    description: "double the Idleverse production."
   },
   {
     id: 227,
-    price: 100,
-    title: "Upgrade227",
-    description: "upgrade227 description"
+    price: 6e33,
+    title: "IdleverseT7",
+    description: "double the Idleverse production."
   },
   {
     id: 228,
-    price: 100,
-    title: "Upgrade228",
-    description: "upgrade228 description"
+    price: 6e36,
+    title: "IdleverseT8",
+    description: "double the Idleverse production."
   },
   {
     id: 229,
-    price: 100,
-    title: "Upgrade229",
-    description: "upgrade229 description"
+    price: 6e39,
+    title: "IdleverseT9",
+    description: "double the Idleverse production."
   },
   {
     id: 230,
-    price: 100,
-    title: "Upgrade230",
-    description: "upgrade230 description"
+    price: 6e42,
+    title: "IdleverseT10",
+    description: "double the Idleverse production."
   },
   {
     id: 231,
-    price: 100,
-    title: "Upgrade231",
-    description: "upgrade231 description"
+    price: 6.0e46,
+    title: "IdleverseT11",
+    description: "double the Idleverse production."
   },
   {
     id: 232,
-    price: 100,
-    title: "Upgrade232",
-    description: "upgrade232 description"
+    price: 6.0e50,
+    title: "IdleverseT12",
+    description: "double the Idleverse production."
   },
   {
     id: 233,
-    price: 100,
-    title: "Upgrade233",
-    description: "upgrade233 description"
+    price: 6e54,
+    title: "IdleverseT13",
+    description: "double the Idleverse production."
   },
   {
     id: 234,
