@@ -89,6 +89,7 @@ export const UpgradeDetailList = [
     title: "cursorT12",
     description: "upgrade12 description"
   },
+
   // grandma tiered upgrade
   {
     id: 13,
@@ -168,6 +169,7 @@ export const UpgradeDetailList = [
     title: "grandmaT13",
     description: "upgrade25 description"
   },
+
   //farm tiered upgrade
   {
     id: 26,
@@ -247,6 +249,9 @@ export const UpgradeDetailList = [
     title: "farmT13",
     description: "double the farm production."
   },
+
+
+  // mine tiered upgrade
   {
     id: 39,
     price: 120000,
@@ -325,6 +330,8 @@ export const UpgradeDetailList = [
     title: "MineT13",
     description: "double the Mine production."
   },
+
+  // Factory tiered upgrade
   {
     id: 52,
     price: 1.3e6,
@@ -403,6 +410,8 @@ export const UpgradeDetailList = [
     title: "FactoryT13",
     description: "double the Factory production."
   },
+
+  // Bank tiered upgrade
   {
     id: 65,
     price: 1.4e7,
@@ -481,6 +490,8 @@ export const UpgradeDetailList = [
     title: "BankT13",
     description: "double the Bank production."
   },
+
+  // Temple tiered upgrade
   {
     id: 78,
     price: 2.0e8,
@@ -559,6 +570,8 @@ export const UpgradeDetailList = [
     title: "TempleT13",
     description: "double the Temple production."
   },
+
+  // Wizard tiered upgrade
   {
     id: 91,
     price: 3.3e9,
@@ -637,6 +650,8 @@ export const UpgradeDetailList = [
     title: "WizardT13",
     description: "double the Wizard production."
   },
+
+  // shipment tiered upgrade
   {
     id: 104,
     price: 5.1e10,
@@ -715,6 +730,8 @@ export const UpgradeDetailList = [
     title: "ShipmentT13",
     description: "double the Shipment production."
   },
+
+  // Alchemy tiered upgrade
   {
     id: 117,
     price: 7.5e11,
@@ -793,6 +810,8 @@ export const UpgradeDetailList = [
     title: "AlchemyT13",
     description: "double the Alchemy production."
   },
+
+  // Portal tiered upgrade
   {
     id: 130,
     price: 10e12,
@@ -871,6 +890,8 @@ export const UpgradeDetailList = [
     title: "PortalT13",
     description: "double the Portal production."
   },
+
+  // timamachine tiered upgrade
   {
     id: 143,
     price: 1.4e14,
@@ -949,6 +970,8 @@ export const UpgradeDetailList = [
     title: "TimeMachineT13",
     description: "double the TimeMachine production."
   },
+
+  // antimattercondenser tiered upgrade
   {
     id: 156,
     price: 1.7e15,
@@ -1027,6 +1050,8 @@ export const UpgradeDetailList = [
     title: "AntimatterCondenserT13",
     description: "double the AntimatterCondenser production."
   },
+
+  // prism tiered upgrade
   {
     id: 169,
     price: 2.1e16,
@@ -1105,6 +1130,8 @@ export const UpgradeDetailList = [
     title: "PrismT13",
     description: "double the Prism production."
   },
+
+  // fractalengine tiered upgrade
   {
     id: 182,
     price: 2.6e17,
@@ -1183,6 +1210,8 @@ export const UpgradeDetailList = [
     title: "FractalEngineT13",
     description: "double the FractalEngine production."
   },
+
+  // chancemaker tiered upgrade
   {
     id: 195,
     price: 3.1e18,
@@ -1261,6 +1290,8 @@ export const UpgradeDetailList = [
     title: "ChancemakerT13",
     description: "double the Chancemaker production."
   },
+
+  // javascriptconsole tiered upgrade
   {
     id: 208,
     price: 7.1e20,
@@ -1339,6 +1370,8 @@ export const UpgradeDetailList = [
     title: "Javascript ConsoleT13",
     description: "double the Javascript Console production."
   },
+
+  // idleverse tiered upgrade
   {
     id: 221,
     price: 1.2e23,
@@ -1417,294 +1450,302 @@ export const UpgradeDetailList = [
     title: "IdleverseT13",
     description: "double the Idleverse production."
   },
+
+
+  // grandma type upgrade
   {
     id: 234,
-    price: 100,
-    title: "Upgrade234",
-    description: "upgrade234 description"
+    price: 55000,
+    title: "farmGrandmaType",
+    description: "double the grandma production, per grandma have +1% farm prodeuction."
   },
   {
     id: 235,
-    price: 100,
-    title: "Upgrade235",
-    description: "upgrade235 description"
+    price: 600000,
+    title: "MineGrandmaType",
+    description: "double the grandma production, per grandma have +1% Mine prodeuction."
   },
   {
     id: 236,
-    price: 100,
-    title: "Upgrade236",
-    description: "upgrade236 description"
+    price: 6.5e6,
+    title: "FactoryGrandmaType",
+    description: "double the grandma production, per grandma have +1% Factory prodeuction."
   },
   {
     id: 237,
-    price: 100,
-    title: "Upgrade237",
-    description: "upgrade237 description"
+    price: 7.0e7,
+    title: "BankGrandmaType",
+    description: "double the grandma production, per grandma have +1% Bank prodeuction."
   },
   {
     id: 238,
-    price: 100,
-    title: "Upgrade238",
-    description: "upgrade238 description"
+    price: 1e9,
+    title: "TempleGrandmaType",
+    description: "double the grandma production, per grandma have +1% Temple prodeuction."
   },
   {
     id: 239,
-    price: 100,
-    title: "Upgrade239",
-    description: "upgrade239 description"
+    price: 1.65e10,
+    title: "WizardGrandmaType",
+    description: "double the grandma production, per grandma have +1% Wizard prodeuction."
   },
   {
     id: 240,
-    price: 100,
-    title: "Upgrade240",
-    description: "upgrade240 description"
+    price: 2.55e11,
+    title: "ShipmentGrandmaType",
+    description: "double the grandma production, per grandma have +1% Shipment prodeuction."
   },
   {
     id: 241,
-    price: 100,
-    title: "Upgrade241",
-    description: "upgrade241 description"
+    price: 3.75e12,
+    title: "AlchemyGrandmaType",
+    description: "double the grandma production, per grandma have +1% Alchemy prodeuction."
   },
   {
     id: 242,
-    price: 100,
-    title: "Upgrade242",
-    description: "upgrade242 description"
+    price: 5.0e13,
+    title: "PortalGrandmaType",
+    description: "double the grandma production, per grandma have +1% Portal prodeuction."
   },
   {
     id: 243,
-    price: 100,
-    title: "Upgrade243",
-    description: "upgrade243 description"
+    price: 7.0e14,
+    title: "TimeMachineGrandmaType",
+    description: "double the grandma production, per grandma have +1% TimeMachine prodeuction."
   },
   {
     id: 244,
-    price: 100,
-    title: "Upgrade244",
-    description: "upgrade244 description"
+    price: 8.5e15,
+    title: "AntimatterCondenserGrandmaType",
+    description: "double the grandma production, per grandma have +1% AntimatterCondenser prodeuction."
   },
   {
     id: 245,
-    price: 100,
-    title: "Upgrade245",
-    description: "upgrade245 description"
+    price: 1.05e17,
+    title: "PrismGrandmaType",
+    description: "double the grandma production, per grandma have +1% Prism prodeuction."
   },
   {
     id: 246,
-    price: 100,
-    title: "Upgrade246",
-    description: "upgrade246 description"
+    price: 1.3e18,
+    title: "FractalEngineGrandmaType",
+    description: "double the grandma production, per grandma have +1% FractalEngine prodeuction."
   },
   {
     id: 247,
-    price: 100,
-    title: "Upgrade247",
-    description: "upgrade247 description"
+    price: 1.55e19,
+    title: "ChancemakerGrandmaType",
+    description: "double the grandma production, per grandma have +1% Chancemaker prodeuction."
   },
   {
     id: 248,
-    price: 100,
-    title: "Upgrade248",
-    description: "upgrade248 description"
+    price: 3.55e21,
+    title: "Javascript ConsoleGrandmaType",
+    description: "double the grandma production, per grandma have +1% Javascript Console prodeuction."
   },
   {
     id: 249,
-    price: 100,
-    title: "Upgrade249",
-    description: "upgrade249 description"
+    price: 6.0e23,
+    title: "IdleverseGrandmaType",
+    description: "double the grandma production, per grandma have +1% Idleverse prodeuction."
   },
+
+
+  // synergies Upgrade
   {
     id: 250,
-    price: 100,
-    title: "Upgrade250",
+    price: 2.8e18,
+    title: synergies1",
     description: "upgrade250 description"
   },
   {
     id: 251,
-    price: 100,
-    title: "Upgrade251",
+    price: 4e18,
+    title: synergies2",
     description: "upgrade251 description"
   },
   {
     id: 252,
-    price: 100,
-    title: "Upgrade252",
+    price: 6.6e13,
+    title: synergies3",
     description: "upgrade252 description"
   },
   {
     id: 253,
-    price: 100,
-    title: "Upgrade253",
+    price: 1e21,
+    title: synergies4",
     description: "upgrade253 description"
   },
   {
     id: 254,
-    price: 100,
-    title: "Upgrade254",
+    price: 3.4e19,
+    title: synergies5",
     description: "upgrade254 description"
   },
   {
     id: 255,
-    price: 100,
-    title: "Upgrade255",
+    price: 2.8e24,
+    title: synergies6",
     description: "upgrade255 description"
   },
   {
     id: 256,
-    price: 100,
-    title: "Upgrade256",
+    price: 2.0e17,
+    title: synergies7",
     description: "upgrade256 description"
   },
   {
     id: 257,
-    price: 100,
-    title: "Upgrade257",
+    price: 5.4e17,
+    title: synergies8",
     description: "upgrade257 description"
   },
   {
     id: 258,
-    price: 100,
-    title: "Upgrade258",
+    price: 2.0e17,
+    title: synergies9",
     description: "upgrade258 description"
   },
   {
     id: 259,
-    price: 100,
-    title: "Upgrade259",
+    price: 3.4e25,
+    title: synergies10",
     description: "upgrade259 description"
   },
   {
     id: 260,
-    price: 100,
-    title: "Upgrade260",
+    price: 1.5e16,
+    title: synergies11",
     description: "upgrade260 description"
   },
   {
     id: 261,
-    price: 100,
-    title: "Upgrade261",
+    price: 6.6e19,
+    title: synergies12",
     description: "upgrade261 description"
   },
   {
     id: 262,
-    price: 100,
-    title: "Upgrade262",
+    price: 1e15,
+    title: synergies13",
     description: "upgrade262 description"
   },
   {
     id: 263,
-    price: 100,
-    title: "Upgrade263",
+    price: 1e21,
+    title: synergies14",
     description: "upgrade263 description"
   },
   {
     id: 264,
-    price: 100,
-    title: "Upgrade264",
+    price: 1.5e16,
+    title: synergies15",
     description: "upgrade264 description"
   },
   {
     id: 265,
-    price: 100,
-    title: "Upgrade265",
+    price: 1.5e22,
+    title: synergies16",
     description: "upgrade265 description"
   },
   {
     id: 266,
-    price: 100,
-    title: "Upgrade266",
+    price: 2.0e17,
+    title: synergies17",
     description: "upgrade266 description"
   },
   {
     id: 267,
-    price: 100,
-    title: "Upgrade267",
+    price: 4.22e26,
+    title: synergies18",
     description: "upgrade267 description"
   },
   {
     id: 268,
-    price: 100,
-    title: "Upgrade268",
+    price: 2.8e18,
+    title: synergies19",
     description: "upgrade268 description"
   },
   {
     id: 269,
-    price: 100,
-    title: "Upgrade269",
+    price: 4.48e26,
+    title: synergies20",
     description: "upgrade269 description"
   },
   {
     id: 270,
-    price: 100,
-    title: "Upgrade270",
+    price: 3.4e19,
+    title: synergies21",
     description: "upgrade270 description"
   },
   {
     id: 271,
-    price: 100,
-    title: "Upgrade271",
+    price: 3.4e25,
+    title: synergies22",
     description: "upgrade271 description"
   },
   {
     id: 272,
-    price: 100,
-    title: "Upgrade272",
+    price: 4.2e20,
+    title: synergies23",
     description: "upgrade272 description"
   },
   {
     id: 273,
-    price: 100,
-    title: "Upgrade273",
+    price: 4.2e26,
+    title: synergies24",
     description: "upgrade273 description"
   },
   {
     id: 274,
-    price: 100,
-    title: "Upgrade274",
+    price: 5.2e21,
+    title: synergies25",
     description: "upgrade274 description"
   },
   {
     id: 275,
-    price: 100,
-    title: "Upgrade275",
+    price: 5.5e27,
+    title: synergies26",
     description: "upgrade275 description"
   },
   {
     id: 276,
-    price: 100,
-    title: "Upgrade276",
+    price: 6.6e22,
+    title: synergies27",
     description: "upgrade276 description"
   },
   {
     id: 277,
-    price: 100,
-    title: "Upgrade277",
+    price: 6.2e28,
+    title: synergies28",
     description: "upgrade277 description"
   },
   {
     id: 278,
-    price: 100,
-    title: "Upgrade278",
+    price: 1.4e25,
+    title: synergies29",
     description: "upgrade278 description"
   },
   {
     id: 279,
-    price: 100,
-    title: "Upgrade279",
+    price: 14,
+    title: synergies30",
     description: "upgrade279 description"
   },
   {
     id: 280,
-    price: 100,
-    title: "Upgrade280",
+    price: 2.4e27,
+    title: synergies31",
     description: "upgrade280 description"
   },
   {
     id: 281,
-    price: 100,
-    title: "Upgrade281",
+    price: 2.4e33,
+    title: synergies32",
     description: "upgrade281 description"
   },
+
+
   {
     id: 282,
     price: 100,
