@@ -506,7 +506,7 @@ export const UpgradeDetailList = [
   },
   {
     id: 80,
-    price: 10e9,
+    price: 1e10,
     title: "TempleT3",
     description: "double the Temple production."
   },
@@ -518,43 +518,43 @@ export const UpgradeDetailList = [
   },
   {
     id: 82,
-    price: 10.0e13,
+    price: 1.0e14,
     title: "TempleT5",
     description: "double the Temple production."
   },
   {
     id: 83,
-    price: 10e15,
+    price: 1e16,
     title: "TempleT6",
     description: "double the Temple production."
   },
   {
     id: 84,
-    price: 10e18,
+    price: 1e19,
     title: "TempleT7",
     description: "double the Temple production."
   },
   {
     id: 85,
-    price: 10e21,
+    price: 1e22,
     title: "TempleT8",
     description: "double the Temple production."
   },
   {
     id: 86,
-    price: 10e24,
+    price: 1e25,
     title: "TempleT9",
     description: "double the Temple production."
   },
   {
     id: 87,
-    price: 10e27,
+    price: 1e28,
     title: "TempleT10",
     description: "double the Temple production."
   },
   {
     id: 88,
-    price: 10.0e31,
+    price: 1.0e32,
     title: "TempleT11",
     description: "double the Temple production."
   },
@@ -566,7 +566,7 @@ export const UpgradeDetailList = [
   },
   {
     id: 90,
-    price: 10e39,
+    price: 1e40,
     title: "TempleT13",
     description: "double the Temple production."
   },
@@ -814,7 +814,7 @@ export const UpgradeDetailList = [
   // Portal tiered upgrade
   {
     id: 130,
-    price: 10e12,
+    price: 1e13,
     title: "PortalT1",
     description: "double the Portal production."
   },
@@ -1745,1159 +1745,1161 @@ export const UpgradeDetailList = [
     description: "upgrade281 description"
   },
 
-
+  // flavored cookie
   {
     id: 282,
-    price: 100,
-    title: "Upgrade282",
-    description: "upgrade282 description"
+    price: 999999,
+    title: standard1",
+    description: "increase 1% production"
   },
   {
     id: 283,
-    price: 100,
-    title: "Upgrade283",
-    description: "upgrade283 description"
+    price: 5e6,
+    title: standard2",
+    description: "increase 1% production"
   },
   {
     id: 284,
-    price: 100,
-    title: "Upgrade284",
-    description: "upgrade284 description"
+    price: 1.0e7,
+    title: standard3",
+    description: "increase 1% production"
   },
   {
     id: 285,
-    price: 100,
-    title: "Upgrade285",
-    description: "upgrade285 description"
+    price: 5.0e7,
+    title: standard4",
+    description: "increase 2% production"
   },
   {
     id: 286,
-    price: 100,
-    title: "Upgrade286",
-    description: "upgrade286 description"
+    price: 1.0e8,
+    title: standard5",
+    description: "increase 2% production"
   },
   {
     id: 287,
-    price: 100,
-    title: "Upgrade287",
-    description: "upgrade287 description"
+    price: 5.0e8,
+    title: standard6",
+    description: "increase 2% production"
   },
   {
     id: 288,
-    price: 100,
-    title: "Upgrade288",
-    description: "upgrade288 description"
+    price: 1e9,
+    title: standard7",
+    description: "increase 2% production"
   },
   {
     id: 289,
-    price: 100,
-    title: "Upgrade289",
-    description: "upgrade289 description"
+    price: 5e9,
+    title: standard8",
+    description: "increase 2% production"
   },
   {
     id: 290,
-    price: 100,
-    title: "Upgrade290",
-    description: "upgrade290 description"
+    price: 1.0e10,
+    title: standard9",
+    description: "increase 2% production"
   },
   {
     id: 291,
-    price: 100,
-    title: "Upgrade291",
-    description: "upgrade291 description"
+    price: 5.0e10,
+    title: standard10",
+    description: "increase 2% production"
   },
   {
     id: 292,
-    price: 100,
-    title: "Upgrade292",
-    description: "upgrade292 description"
+    price: 1.0e11,
+    title: standard11",
+    description: "increase 5% production"
   },
   {
     id: 293,
-    price: 100,
-    title: "Upgrade293",
-    description: "upgrade293 description"
+    price: 1.0e11,
+    title: standard12",
+    description: "increase 5% production"
   },
   {
     id: 294,
-    price: 100,
-    title: "Upgrade294",
-    description: "upgrade294 description"
+    price: 5.0e11,
+    title: standard13",
+    description: "increase 2% production"
   },
   {
     id: 295,
-    price: 100,
-    title: "Upgrade295",
-    description: "upgrade295 description"
+    price: 1e12,
+    title: standard14",
+    description: "increase 2% production"
   },
   {
     id: 296,
-    price: 100,
-    title: "Upgrade296",
-    description: "upgrade296 description"
+    price: 5e12,
+    title: standard15",
+    description: "increase 2% production"
   },
   {
     id: 297,
-    price: 100,
-    title: "Upgrade297",
-    description: "upgrade297 description"
+    price: 1.0e13,
+    title: standard16",
+    description: "increase 2% production"
   },
   {
     id: 298,
-    price: 100,
-    title: "Upgrade298",
-    description: "upgrade298 description"
+    price: 5.0e13,
+    title: standard17",
+    description: "increase 2% production"
   },
   {
     id: 299,
-    price: 100,
-    title: "Upgrade299",
-    description: "upgrade299 description"
+    price: 1.0e14,
+    title: standard18",
+    description: "increase 2% production"
   },
   {
     id: 300,
-    price: 100,
-    title: "Upgrade300",
-    description: "upgrade300 description"
+    price: 5.0e14,
+    title: standard19",
+    description: "increase 2% production"
   },
   {
     id: 301,
-    price: 100,
-    title: "Upgrade301",
-    description: "upgrade301 description"
+    price: 5.0e14,
+    title: standard20",
+    description: "increase 2% production"
   },
   {
     id: 302,
-    price: 100,
-    title: "Upgrade302",
-    description: "upgrade302 description"
+    price: 1e15,
+    title: standard21",
+    description: "increase 2% production"
   },
   {
     id: 303,
-    price: 100,
-    title: "Upgrade303",
-    description: "upgrade303 description"
+    price: 1e15,
+    title: standard22",
+    description: "increase 2% production"
   },
   {
     id: 304,
-    price: 100,
-    title: "Upgrade304",
-    description: "upgrade304 description"
+    price: 1.0e16,
+    title: standard23",
+    description: "increase 2% production"
   },
   {
     id: 305,
-    price: 100,
-    title: "Upgrade305",
-    description: "upgrade305 description"
+    price: 1.0e16,
+    title: standard24",
+    description: "increase 2% production"
   },
   {
     id: 306,
-    price: 100,
-    title: "Upgrade306",
-    description: "upgrade306 description"
+    price: 5.0e16,
+    title: standard25",
+    description: "increase 1% production"
   },
   {
     id: 307,
-    price: 100,
-    title: "Upgrade307",
-    description: "upgrade307 description"
+    price: 5.0e16,
+    title: standard26",
+    description: "increase 5% production"
   },
   {
     id: 308,
-    price: 100,
-    title: "Upgrade308",
-    description: "upgrade308 description"
+    price: 1.0e17,
+    title: standard27",
+    description: "increase 3% production"
   },
   {
     id: 309,
-    price: 100,
-    title: "Upgrade309",
-    description: "upgrade309 description"
+    price: 5.0e17,
+    title: standard28",
+    description: "increase 3% production"
   },
   {
     id: 310,
-    price: 100,
-    title: "Upgrade310",
-    description: "upgrade310 description"
+    price: 1e18,
+    title: standard29",
+    description: "increase 3% production"
   },
   {
     id: 311,
-    price: 100,
-    title: "Upgrade311",
-    description: "upgrade311 description"
+    price: 5e18,
+    title: standard30",
+    description: "increase 3% production"
   },
   {
     id: 312,
-    price: 100,
-    title: "Upgrade312",
-    description: "upgrade312 description"
+    price: 1.0e19,
+    title: standard31",
+    description: "increase 3% production"
   },
   {
     id: 313,
-    price: 100,
-    title: "Upgrade313",
-    description: "upgrade313 description"
+    price: 5.0e19,
+    title: standard32",
+    description: "increase 3% production"
   },
   {
     id: 314,
-    price: 100,
-    title: "Upgrade314",
-    description: "upgrade314 description"
+    price: 1.0e20,
+    title: standard33",
+    description: "increase 4% production"
   },
   {
     id: 315,
-    price: 100,
-    title: "Upgrade315",
-    description: "upgrade315 description"
+    price: 5.0e20,
+    title: standard34",
+    description: "increase 4% production"
   },
   {
     id: 316,
-    price: 100,
-    title: "Upgrade316",
-    description: "upgrade316 description"
+    price: 1e21,
+    title: standard35",
+    description: "increase 4% production"
   },
   {
     id: 317,
-    price: 100,
-    title: "Upgrade317",
-    description: "upgrade317 description"
+    price: 5e21,
+    title: standard36",
+    description: "increase 4% production"
   },
   {
     id: 318,
-    price: 100,
-    title: "Upgrade318",
-    description: "upgrade318 description"
+    price: 1.0e22,
+    title: standard37",
+    description: "increase 4% production"
   },
   {
     id: 319,
-    price: 100,
-    title: "Upgrade319",
-    description: "upgrade319 description"
+    price: 5.0e22,
+    title: standard38",
+    description: "increase 4% production"
   },
   {
     id: 320,
-    price: 100,
-    title: "Upgrade320",
-    description: "upgrade320 description"
+    price: 1.0e23,
+    title: standard39",
+    description: "increase 4% production"
   },
   {
     id: 321,
-    price: 100,
-    title: "Upgrade321",
-    description: "upgrade321 description"
+    price: 5.0e23,
+    title: standard40",
+    description: "increase 4% production"
   },
   {
     id: 322,
-    price: 100,
-    title: "Upgrade322",
-    description: "upgrade322 description"
+    price: 1e24,
+    title: standard41",
+    description: "increase 4% production"
   },
   {
     id: 323,
-    price: 100,
-    title: "Upgrade323",
-    description: "upgrade323 description"
+    price: 5e24,
+    title: standard42",
+    description: "increase 4% production"
   },
   {
     id: 324,
-    price: 100,
-    title: "Upgrade324",
-    description: "upgrade324 description"
+    price: 1.0e25,
+    title: standard43",
+    description: "increase 4% production"
   },
   {
     id: 325,
-    price: 100,
-    title: "Upgrade325",
-    description: "upgrade325 description"
+    price: 5.0e25,
+    title: standard44",
+    description: "increase 4% production"
   },
   {
     id: 326,
-    price: 100,
-    title: "Upgrade326",
-    description: "upgrade326 description"
+    price: 1.0e26,
+    title: standard45",
+    description: "increase 4% production"
   },
   {
     id: 327,
-    price: 100,
-    title: "Upgrade327",
-    description: "upgrade327 description"
+    price: 5.0e26,
+    title: standard46",
+    description: "increase 4% production"
   },
   {
     id: 328,
-    price: 100,
-    title: "Upgrade328",
-    description: "upgrade328 description"
+    price: 1e27,
+    title: standard47",
+    description: "increase 4% production"
   },
   {
     id: 329,
-    price: 100,
-    title: "Upgrade329",
-    description: "upgrade329 description"
+    price: 5e27,
+    title: standard48",
+    description: "increase 4% production"
   },
   {
     id: 330,
-    price: 100,
-    title: "Upgrade330",
-    description: "upgrade330 description"
+    price: 1.0e28,
+    title: standard49",
+    description: "increase 4% production"
   },
   {
     id: 331,
-    price: 100,
-    title: "Upgrade331",
-    description: "upgrade331 description"
+    price: 5.0e28,
+    title: standard50",
+    description: "increase 4% production"
   },
   {
     id: 332,
-    price: 100,
-    title: "Upgrade332",
-    description: "upgrade332 description"
+    price: 1.0e29,
+    title: standard51",
+    description: "increase 1% production"
   },
   {
     id: 333,
-    price: 100,
-    title: "Upgrade333",
-    description: "upgrade333 description"
+    price: 5.0e29,
+    title: standard52",
+    description: "increase 4% production"
   },
   {
     id: 334,
-    price: 100,
-    title: "Upgrade334",
-    description: "upgrade334 description"
+    price: 1e30,
+    title: standard53",
+    description: "increase 4% production"
   },
   {
     id: 335,
-    price: 100,
-    title: "Upgrade335",
-    description: "upgrade335 description"
+    price: 5e30,
+    title: standard54",
+    description: "increase 4% production"
   },
   {
     id: 336,
-    price: 100,
-    title: "Upgrade336",
-    description: "upgrade336 description"
+    price: 1.0e31,
+    title: standard55",
+    description: "increase 4% production"
   },
   {
     id: 337,
-    price: 100,
-    title: "Upgrade337",
-    description: "upgrade337 description"
+    price: 5.0e31,
+    title: standard56",
+    description: "increase 4% production"
   },
   {
     id: 338,
-    price: 100,
-    title: "Upgrade338",
-    description: "upgrade338 description"
+    price: 1.0e32,
+    title: standard57",
+    description: "increase 4% production"
   },
   {
     id: 339,
-    price: 100,
-    title: "Upgrade339",
-    description: "upgrade339 description"
+    price: 5.0e32,
+    title: standard58",
+    description: "increase 4% production"
   },
   {
     id: 340,
-    price: 100,
-    title: "Upgrade340",
-    description: "upgrade340 description"
+    price: 1e33,
+    title: standard59",
+    description: "increase 4% production"
   },
   {
     id: 341,
-    price: 100,
-    title: "Upgrade341",
-    description: "upgrade341 description"
+    price: 5e33,
+    title: standard60",
+    description: "increase 4% production"
   },
   {
     id: 342,
-    price: 100,
-    title: "Upgrade342",
-    description: "upgrade342 description"
+    price: 1.0e34,
+    title: standard61",
+    description: "increase 4% production"
   },
   {
     id: 343,
-    price: 100,
-    title: "Upgrade343",
-    description: "upgrade343 description"
+    price: 5.0e34,
+    title: standard62",
+    description: "increase 4% production"
   },
   {
     id: 344,
-    price: 100,
-    title: "Upgrade344",
-    description: "upgrade344 description"
+    price: 1.0e35,
+    title: standard63",
+    description: "increase 4% production"
   },
   {
     id: 345,
-    price: 100,
-    title: "Upgrade345",
-    description: "upgrade345 description"
+    price: 5.0e35,
+    title: standard64",
+    description: "increase 4% production"
   },
   {
     id: 346,
-    price: 100,
-    title: "Upgrade346",
-    description: "upgrade346 description"
+    price: 1e36,
+    title: standard65",
+    description: "increase 1% production"
   },
   {
     id: 347,
-    price: 100,
-    title: "Upgrade347",
-    description: "upgrade347 description"
+    price: 5e36,
+    title: standard66",
+    description: "increase 1% production"
   },
   {
     id: 348,
-    price: 100,
-    title: "Upgrade348",
-    description: "upgrade348 description"
+    price: 1.0e37,
+    title: standard67",
+    description: "increase 1% production"
   },
   {
     id: 349,
-    price: 100,
-    title: "Upgrade349",
-    description: "upgrade349 description"
+    price: 1.0e8,
+    title: standard68",
+    description: "increase 2% production"
   },
   {
     id: 350,
-    price: 100,
-    title: "Upgrade350",
-    description: "upgrade350 description"
+    price: 1.0e8,
+    title: standard69",
+    description: "increase 2% production"
   },
   {
     id: 351,
-    price: 100,
-    title: "Upgrade351",
-    description: "upgrade351 description"
+    price: 1.0e8,
+    title: standard70",
+    description: "increase 2% production"
   },
   {
     id: 352,
-    price: 100,
-    title: "Upgrade352",
-    description: "upgrade352 description"
+    price: 5.0e37,
+    title: standard71",
+    description: "increase 4% production"
   },
   {
     id: 353,
-    price: 100,
-    title: "Upgrade353",
-    description: "upgrade353 description"
+    price: 1.0e38,
+    title: standard72",
+    description: "increase 4% production"
   },
   {
     id: 354,
-    price: 100,
-    title: "Upgrade354",
-    description: "upgrade354 description"
+    price: 5.0e38,
+    title: standard73",
+    description: "increase 5% production"
   },
   {
     id: 355,
-    price: 100,
-    title: "Upgrade355",
-    description: "upgrade355 description"
+    price: 1e39,
+    title: standard74",
+    description: "increase 5% production"
   },
   {
     id: 356,
-    price: 100,
-    title: "Upgrade356",
-    description: "upgrade356 description"
+    price: 3.1e39,
+    title: standard75",
+    description: "increase 5% production"
   },
   {
     id: 357,
-    price: 100,
-    title: "Upgrade357",
-    description: "upgrade357 description"
+    price: 1.0e40,
+    title: standard76",
+    description: "increase 5% production"
   },
   {
     id: 358,
-    price: 100,
-    title: "Upgrade358",
-    description: "upgrade358 description"
+    price: 3.1e40,
+    title: standard77",
+    description: "increase 5% production"
   },
   {
     id: 359,
-    price: 100,
-    title: "Upgrade359",
-    description: "upgrade359 description"
+    price: 1.0e41,
+    title: standard78",
+    description: "increase 5% production"
   },
   {
     id: 360,
-    price: 100,
-    title: "Upgrade360",
-    description: "upgrade360 description"
+    price: 3.16e41,
+    title: standard79",
+    description: "increase 5% production"
   },
   {
     id: 361,
-    price: 100,
-    title: "Upgrade361",
-    description: "upgrade361 description"
+    price: 1e42,
+    title: standard80",
+    description: "increase 5% production"
   },
   {
     id: 362,
-    price: 100,
-    title: "Upgrade362",
-    description: "upgrade362 description"
+    price: 3.1e42,
+    title: standard81",
+    description: "increase 5% production"
   },
   {
     id: 363,
-    price: 100,
-    title: "Upgrade363",
-    description: "upgrade363 description"
+    price: 1.0e43,
+    title: standard82",
+    description: "increase 5% production"
   },
   {
     id: 364,
-    price: 100,
-    title: "Upgrade364",
-    description: "upgrade364 description"
+    price: 3.1e43,
+    title: standard83",
+    description: "increase 5% production"
   },
   {
     id: 365,
-    price: 100,
-    title: "Upgrade365",
-    description: "upgrade365 description"
+    price: 3.1e43,
+    title: standard84",
+    description: "increase 5% production"
   },
   {
     id: 366,
-    price: 100,
-    title: "Upgrade366",
-    description: "upgrade366 description"
+    price: 1.0e43,
+    title: standard85",
+    description: "increase 5% production"
   },
   {
     id: 367,
-    price: 100,
-    title: "Upgrade367",
-    description: "upgrade367 description"
+    price: 3.16e44,
+    title: standard86",
+    description: "increase 5% production"
   },
   {
     id: 368,
-    price: 100,
-    title: "Upgrade368",
-    description: "upgrade368 description"
+    price: 1e45,
+    title: standard87",
+    description: "increase 5% production"
   },
   {
     id: 369,
-    price: 100,
-    title: "Upgrade369",
-    description: "upgrade369 description"
+    price: 3.1e45,
+    title: standard88",
+    description: "increase 5% production"
   },
   {
     id: 370,
-    price: 100,
-    title: "Upgrade370",
-    description: "upgrade370 description"
+    price: 1.0e46,
+    title: standard89",
+    description: "increase 5% production"
   },
   {
     id: 371,
-    price: 100,
-    title: "Upgrade371",
-    description: "upgrade371 description"
+    price: 3.1e46,
+    title: standard90",
+    description: "increase 5% production"
   },
   {
     id: 372,
-    price: 100,
-    title: "Upgrade372",
-    description: "upgrade372 description"
+    price: 3.1e46,
+    title: standard91",
+    description: "increase 5% production"
   },
   {
     id: 373,
-    price: 100,
-    title: "Upgrade373",
-    description: "upgrade373 description"
+    price: 1.0e47,
+    title: standard92",
+    description: "increase 5% production"
   },
   {
     id: 374,
-    price: 100,
-    title: "Upgrade374",
-    description: "upgrade374 description"
+    price: 3.16e47,
+    title: standard93",
+    description: "increase 5% production"
   },
   {
     id: 375,
-    price: 100,
-    title: "Upgrade375",
-    description: "upgrade375 description"
+    price: 1e48,
+    title: standard94",
+    description: "increase 5% production"
   },
   {
     id: 376,
-    price: 100,
-    title: "Upgrade376",
-    description: "upgrade376 description"
+    price: 1e48,
+    title: standard95",
+    description: "increase 5% production"
   },
   {
     id: 377,
-    price: 100,
-    title: "Upgrade377",
-    description: "upgrade377 description"
+    price: 3.16e48,
+    title: standard96",
+    description: "increase 5% production"
   },
   {
     id: 378,
-    price: 100,
-    title: "Upgrade378",
-    description: "upgrade378 description"
+    price: 1.0e49,
+    title: standard97",
+    description: "increase 5% production"
   },
   {
     id: 379,
-    price: 100,
-    title: "Upgrade379",
-    description: "upgrade379 description"
+    price: 3.1e49,
+    title: standard98",
+    description: "increase 5% production"
   },
   {
     id: 380,
-    price: 100,
-    title: "Upgrade380",
-    description: "upgrade380 description"
+    price: 1.0e50,
+    title: standard99",
+    description: "increase 5% production"
   },
   {
     id: 381,
-    price: 100,
-    title: "Upgrade381",
-    description: "upgrade381 description"
+    price: 3.16e50,
+    title: standard100",
+    description: "increase 5% production"
   },
   {
     id: 382,
-    price: 100,
-    title: "Upgrade382",
-    description: "upgrade382 description"
+    price: 3.1e40,
+    title: standard101",
+    description: "increase 5% production"
   },
   {
     id: 383,
-    price: 100,
-    title: "Upgrade383",
-    description: "upgrade383 description"
+    price: 1e51,
+    title: standard102",
+    description: "increase 5% production"
   },
   {
     id: 384,
-    price: 100,
-    title: "Upgrade384",
-    description: "upgrade384 description"
+    price: 3.1e51,
+    title: standard103",
+    description: "increase 5% production"
   },
   {
     id: 385,
-    price: 100,
-    title: "Upgrade385",
-    description: "upgrade385 description"
+    price: 1.0e52,
+    title: standard104",
+    description: "increase 5% production"
   },
   {
     id: 386,
-    price: 100,
-    title: "Upgrade386",
-    description: "upgrade386 description"
+    price: 3.1e52,
+    title: standard105",
+    description: "increase 5% production"
   },
   {
     id: 387,
-    price: 100,
-    title: "Upgrade387",
-    description: "upgrade387 description"
+    price: 1.0e53,
+    title: standard106",
+    description: "increase 5% production"
   },
   {
     id: 388,
-    price: 100,
-    title: "Upgrade388",
-    description: "upgrade388 description"
+    price: 3.16e53,
+    title: standard107",
+    description: "increase 5% production"
   },
   {
     id: 389,
-    price: 100,
-    title: "Upgrade389",
-    description: "upgrade389 description"
+    price: 1e54,
+    title: standard108",
+    description: "increase 5% production"
   },
   {
     id: 390,
-    price: 100,
-    title: "Upgrade390",
-    description: "upgrade390 description"
+    price: 3.1e54,
+    title: standard109",
+    description: "increase 5% production"
   },
   {
     id: 391,
-    price: 100,
-    title: "Upgrade391",
-    description: "upgrade391 description"
+    price: 1.0e55,
+    title: standard110",
+    description: "increase 5% production"
   },
   {
     id: 392,
-    price: 100,
-    title: "Upgrade392",
-    description: "upgrade392 description"
+    price: 3.1e55,
+    title: standard111",
+    description: "increase 5% production"
   },
   {
     id: 393,
-    price: 100,
-    title: "Upgrade393",
-    description: "upgrade393 description"
+    price: 1.0e56,
+    title: standard112",
+    description: "increase 5% production"
   },
   {
     id: 394,
-    price: 100,
-    title: "Upgrade394",
-    description: "upgrade394 description"
+    price: 3.16e56,
+    title: standard113",
+    description: "increase 5% production"
   },
   {
     id: 395,
-    price: 100,
-    title: "Upgrade395",
-    description: "upgrade395 description"
+    price: 1e57,
+    title: standard114",
+    description: "increase 5% production"
   },
   {
     id: 396,
-    price: 100,
-    title: "Upgrade396",
-    description: "upgrade396 description"
+    price: 3.1e57,
+    title: standard115",
+    description: "increase 5% production"
   },
   {
     id: 397,
-    price: 100,
-    title: "Upgrade397",
-    description: "upgrade397 description"
+    price: 1.0e58,
+    title: standard116",
+    description: "increase 5% production"
   },
   {
     id: 398,
-    price: 100,
-    title: "Upgrade398",
-    description: "upgrade398 description"
+    price: 3.1e58,
+    title: standard117",
+    description: "increase 5% production"
   },
   {
     id: 399,
-    price: 100,
-    title: "Upgrade399",
-    description: "upgrade399 description"
+    price: 1.0e59,
+    title: standard118",
+    description: "increase 5% production"
   },
   {
     id: 400,
-    price: 100,
-    title: "Upgrade400",
-    description: "upgrade400 description"
+    price: 3.16e59,
+    title: standard119",
+    description: "increase 5% production"
   },
   {
     id: 401,
-    price: 100,
-    title: "Upgrade401",
-    description: "upgrade401 description"
+    price: 3.16e59,
+    title: standard120",
+    description: "increase 5% production"
   },
   {
     id: 402,
-    price: 100,
-    title: "Upgrade402",
-    description: "upgrade402 description"
+    price: 1.0e8,
+    title: standard121",
+    description: "increase 2% production"
   },
   {
     id: 403,
-    price: 100,
-    title: "Upgrade403",
-    description: "upgrade403 description"
+    price: 5.0e8,
+    title: standard122",
+    description: "increase 2% production"
   },
   {
     id: 404,
-    price: 100,
-    title: "Upgrade404",
-    description: "upgrade404 description"
+    price: 1.0e14,
+    title: britishTea1",
+    description: "increase 2% production"
   },
   {
     id: 405,
-    price: 100,
-    title: "Upgrade405",
-    description: "upgrade405 description"
+    price: 1.0e14,
+    title: britishTea2",
+    description: "increase 2% production"
   },
   {
     id: 406,
-    price: 100,
-    title: "Upgrade406",
-    description: "upgrade406 description"
+    price: 1.0e14,
+    title: britishTea3",
+    description: "increase 2% production"
   },
   {
     id: 407,
-    price: 100,
-    title: "Upgrade407",
-    description: "upgrade407 description"
+    price: 1.0e14,
+    title: britishTea4",
+    description: "increase 2% production"
   },
   {
     id: 408,
-    price: 100,
-    title: "Upgrade408",
-    description: "upgrade408 description"
+    price: 1.0e14,
+    title: britishTea5",
+    description: "increase 2% production"
   },
   {
     id: 409,
-    price: 100,
-    title: "Upgrade409",
-    description: "upgrade409 description"
+    price: 1.0e14,
+    title: britishTea6",
+    description: "increase 2% production"
   },
   {
     id: 410,
-    price: 100,
-    title: "Upgrade410",
-    description: "upgrade410 description"
+    price: 1.0e16,
+    title: brand1",
+    description: "increase 3% production"
   },
   {
     id: 411,
-    price: 100,
-    title: "Upgrade411",
-    description: "upgrade411 description"
+    price: 1.0e16,
+    title: brand2",
+    description: "increase 3% production"
   },
   {
     id: 412,
-    price: 100,
-    title: "Upgrade412",
-    description: "upgrade412 description"
+    price: 1.0e16,
+    title: brand3",
+    description: "increase 3% production"
   },
   {
     id: 413,
-    price: 100,
-    title: "Upgrade413",
-    description: "upgrade413 description"
+    price: 1.0e16,
+    title: brand4",
+    description: "increase 3% production"
   },
   {
     id: 414,
-    price: 100,
-    title: "Upgrade414",
-    description: "upgrade414 description"
+    price: 5e15,
+    title: brand5",
+    description: "increase 2% production"
   },
   {
     id: 415,
-    price: 100,
-    title: "Upgrade415",
-    description: "upgrade415 description"
+    price: 5e15,
+    title: brand6",
+    description: "increase 2% production"
   },
   {
     id: 416,
-    price: 100,
-    title: "Upgrade416",
-    description: "upgrade416 description"
+    price: 5e15,
+    title: brand7",
+    description: "increase 2% production"
   },
   {
     id: 417,
-    price: 100,
-    title: "Upgrade417",
-    description: "upgrade417 description"
+    price: 5e15,
+    title: brand8",
+    description: "increase 2% production"
   },
   {
     id: 418,
-    price: 100,
-    title: "Upgrade418",
-    description: "upgrade418 description"
+    price: 5e15,
+    title: brand9",
+    description: "increase 2% production"
   },
   {
     id: 419,
-    price: 100,
-    title: "Upgrade419",
-    description: "upgrade419 description"
+    price: 5e21,
+    title: brand10",
+    description: "increase 3% production"
   },
   {
     id: 420,
-    price: 100,
-    title: "Upgrade420",
-    description: "upgrade420 description"
+    price: 5e21,
+    title: brand11",
+    description: "increase 3% production"
   },
   {
     id: 421,
-    price: 100,
-    title: "Upgrade421",
-    description: "upgrade421 description"
+    price: 5e24,
+    title: brand12",
+    description: "increase 2% production"
   },
   {
     id: 422,
-    price: 100,
-    title: "Upgrade422",
-    description: "upgrade422 description"
+    price: 5e27,
+    title: brand13",
+    description: "increase 2% production"
   },
   {
     id: 423,
-    price: 100,
-    title: "Upgrade423",
-    description: "upgrade423 description"
+    price: 5e30,
+    title: brand14",
+    description: "increase 2% production"
   },
   {
     id: 424,
-    price: 100,
-    title: "Upgrade424",
-    description: "upgrade424 description"
+    price: 5e33,
+    title: brand15",
+    description: "increase 2% production"
   },
   {
     id: 425,
-    price: 100,
-    title: "Upgrade425",
-    description: "upgrade425 description"
+    price: 5e36,
+    title: brand16",
+    description: "increase 2% production"
   },
   {
     id: 426,
-    price: 100,
-    title: "Upgrade426",
-    description: "upgrade426 description"
+    price: 9999,
+    title: macarons1",
+    description: "increase 3% production"
   },
   {
     id: 427,
-    price: 100,
-    title: "Upgrade427",
-    description: "upgrade427 description"
+    price: 1.0e7,
+    title: macarons2",
+    description: "increase 3% production"
   },
   {
     id: 428,
-    price: 100,
-    title: "Upgrade428",
-    description: "upgrade428 description"
+    price: 1.0e10,
+    title: macarons3",
+    description: "increase 3% production"
   },
   {
     id: 429,
-    price: 100,
-    title: "Upgrade429",
-    description: "upgrade429 description"
+    price: 1.0e13,
+    title: macarons4",
+    description: "increase 3% production"
   },
   {
     id: 430,
-    price: 100,
-    title: "Upgrade430",
-    description: "upgrade430 description"
+    price: 1.0e16,
+    title: macarons5",
+    description: "increase 3% production"
   },
   {
     id: 431,
-    price: 100,
-    title: "Upgrade431",
-    description: "upgrade431 description"
+    price: 1.0e19,
+    title: macarons6",
+    description: "increase 3% production"
   },
   {
     id: 432,
-    price: 100,
-    title: "Upgrade432",
-    description: "upgrade432 description"
+    price: 1.0e22,
+    title: macarons7",
+    description: "increase 3% production"
   },
   {
     id: 433,
-    price: 100,
-    title: "Upgrade433",
-    description: "upgrade433 description"
+    price: 1.0e25,
+    title: macarons8",
+    description: "increase 3% production"
   },
   {
     id: 434,
-    price: 100,
-    title: "Upgrade434",
-    description: "upgrade434 description"
+    price: 1.0e28,
+    title: macarons9",
+    description: "increase 3% production"
   },
   {
     id: 435,
-    price: 100,
-    title: "Upgrade435",
-    description: "upgrade435 description"
+    price: 1.0e23,
+    title: butter1",
+    description: "increase 4% production"
   },
   {
     id: 436,
-    price: 100,
-    title: "Upgrade436",
-    description: "upgrade436 description"
+    price: 5.0e23,
+    title: butter2",
+    description: "increase 4% production"
   },
   {
     id: 437,
-    price: 100,
-    title: "Upgrade437",
-    description: "upgrade437 description"
+    price: 1e24,
+    title: butter3",
+    description: "increase 4% production"
   },
   {
     id: 438,
-    price: 100,
-    title: "Upgrade438",
-    description: "upgrade438 description"
+    price: 5e24,
+    title: butter4",
+    description: "increase 4% production"
   },
   {
     id: 439,
-    price: 100,
-    title: "Upgrade439",
-    description: "upgrade439 description"
+    price: 1.0e25,
+    title: butter5",
+    description: "increase 4% production"
   },
   {
     id: 440,
-    price: 100,
-    title: "Upgrade440",
-    description: "upgrade440 description"
+    price: 1.0e35,
+    title: maybe1",
+    description: "increase 4% production"
   },
   {
     id: 441,
-    price: 100,
-    title: "Upgrade441",
-    description: "upgrade441 description"
+    price: 1.0e37,
+    title: maybe2",
+    description: "increase 4% production"
   },
   {
     id: 442,
-    price: 100,
-    title: "Upgrade442",
-    description: "upgrade442 description"
+    price: 1e39,
+    title: maybe3",
+    description: "increase 4% production"
   },
   {
     id: 443,
-    price: 100,
-    title: "Upgrade443",
-    description: "upgrade443 description"
+    price: 1.0e41,
+    title: maybe4",
+    description: "increase 4% production"
   },
   {
     id: 444,
-    price: 100,
-    title: "Upgrade444",
-    description: "upgrade444 description"
+    price: 1.0e43,
+    title: maybe5",
+    description: "increase 4% production"
   },
   {
     id: 445,
-    price: 100,
-    title: "Upgrade445",
-    description: "upgrade445 description"
+    price: 1e45,
+    title: maybe6",
+    description: "increase 4% production"
   },
   {
     id: 446,
-    price: 100,
-    title: "Upgrade446",
-    description: "upgrade446 description"
+    price: 1.0e34,
+    title: not1",
+    description: "increase 4% production"
   },
   {
     id: 447,
-    price: 100,
-    title: "Upgrade447",
-    description: "upgrade447 description"
+    price: 1e36,
+    title: not2",
+    description: "increase 4% production"
   },
   {
     id: 448,
-    price: 100,
-    title: "Upgrade448",
-    description: "upgrade448 description"
+    price: 1.0e38,
+    title: not3",
+    description: "increase 4% production"
   },
   {
     id: 449,
-    price: 100,
-    title: "Upgrade449",
-    description: "upgrade449 description"
+    price: 1.0e40,
+    title: not4",
+    description: "increase 4% production"
   },
   {
     id: 450,
-    price: 100,
-    title: "Upgrade450",
-    description: "upgrade450 description"
+    price: 1e42,
+    title: not5",
+    description: "increase 1% production"
   },
   {
     id: 451,
-    price: 100,
-    title: "Upgrade451",
-    description: "upgrade451 description"
+    price: 1.0e44,
+    title: not6",
+    description: "increase 5% production"
   },
   {
     id: 452,
-    price: 100,
-    title: "Upgrade452",
-    description: "upgrade452 description"
+    price: 1.0e46,
+    title: not7",
+    description: "increase 5% production"
   },
   {
     id: 453,
-    price: 100,
-    title: "Upgrade453",
-    description: "upgrade453 description"
+    price: 1.0e31,
+    title: pastries1",
+    description: "increase 4% production"
   },
   {
     id: 454,
-    price: 100,
-    title: "Upgrade454",
-    description: "upgrade454 description"
+    price: 1e33,
+    title: pastries2",
+    description: "increase 4% production"
   },
   {
     id: 455,
-    price: 100,
-    title: "Upgrade455",
-    description: "upgrade455 description"
+    price: 1.0e35,
+    title: pastries3",
+    description: "increase 4% production"
   },
   {
     id: 456,
-    price: 100,
-    title: "Upgrade456",
-    description: "upgrade456 description"
+    price: 1.0e37,
+    title: pastries4",
+    description: "increase 4% production"
   },
   {
     id: 457,
-    price: 100,
-    title: "Upgrade457",
-    description: "upgrade457 description"
+    price: 1e39,
+    title: pastries5",
+    description: "increase 4% production"
   },
   {
     id: 458,
-    price: 100,
-    title: "Upgrade458",
-    description: "upgrade458 description"
+    price: 1.0e41,
+    title: pastries6",
+    description: "increase 4% production"
   },
   {
     id: 459,
-    price: 100,
-    title: "Upgrade459",
-    description: "upgrade459 description"
+    price: 1.0e43,
+    title: pastries7",
+    description: "increase 4% production"
   },
   {
     id: 460,
-    price: 100,
-    title: "Upgrade460",
-    description: "upgrade460 description"
+    price: 1e45,
+    title: pastries8",
+    description: "increase 4% production"
   },
   {
     id: 461,
     price: 100,
-    title: "Upgrade461",
-    description: "upgrade461 description"
+    title: lagacy1",
+    description: "increase 1% production"
   },
   {
     id: 462,
-    price: 100,
-    title: "Upgrade462",
-    description: "upgrade462 description"
+    price: 1e12,
+    title: lagacy2",
+    description: "increase 10% production"
   },
   {
     id: 463,
-    price: 100,
-    title: "Upgrade463",
-    description: "upgrade463 description"
+    price: 1.0e29,
+    title: chocolatebutter1",
+    description: "increase 10% production"
   },
   {
     id: 464,
-    price: 100,
-    title: "Upgrade464",
-    description: "upgrade464 description"
+    price: 1.0e32,
+    title: chocolatebutter2",
+    description: "increase 10% production"
   },
   {
     id: 465,
-    price: 100,
-    title: "Upgrade465",
-    description: "upgrade465 description"
+    price: 1.0e35,
+    title: chocolatebutter3",
+    description: "increase 10% production"
   },
   {
     id: 466,
-    price: 100,
-    title: "Upgrade466",
-    description: "upgrade466 description"
+    price: 1.0e38,
+    title: chocolatebutter4",
+    description: "increase 10% production"
   },
   {
     id: 467,
-    price: 100,
-    title: "Upgrade467",
-    description: "upgrade467 description"
+    price: 1.0e41,
+    title: chocolatebutter5",
+    description: "increase 10% production"
   },
   {
     id: 468,
-    price: 100,
-    title: "Upgrade468",
-    description: "upgrade468 description"
+    price: 1.0e44,
+    title: chocolatebutter6",
+    description: "increase 10% production"
   },
   {
     id: 469,
-    price: 100,
-    title: "Upgrade469",
-    description: "upgrade469 description"
+    price: 1.0e47,
+    title: chocolatebutter7",
+    description: "increase 10% production"
   },
   {
     id: 470,
-    price: 100,
-    title: "Upgrade470",
-    description: "upgrade470 description"
+    price: 1.0e50,
+    title: chocolatebutter8",
+    description: "increase 10% production"
   },
   {
     id: 471,
-    price: 100,
-    title: "Upgrade471",
-    description: "upgrade471 description"
+    price: 1.0e53,
+    title: chocolatebutter9",
+    description: "increase 10% production"
   },
   {
     id: 472,
-    price: 100,
-    title: "Upgrade472",
-    description: "upgrade472 description"
+    price: 1.0e56,
+    title: chocolatebutter10",
+    description: "increase 10% production"
   },
   {
     id: 473,
-    price: 100,
-    title: "Upgrade473",
-    description: "upgrade473 description"
+    price: 1.0e59,
+    title: chocolatebutter11",
+    description: "increase 10% production"
   },
+
+
   {
     id: 474,
     price: 100,
