@@ -272,13 +272,13 @@ export const UpgradeDetailList = [
   },
   {
     id: 42,
-    price: 6.0e8,
+    price: 6e8,
     title: "MineT4",
     description: "double the Mine production."
   },
   {
     id: 43,
-    price: 6.0e10,
+    price: 6e10,
     title: "MineT5",
     description: "double the Mine production."
   },
@@ -314,13 +314,13 @@ export const UpgradeDetailList = [
   },
   {
     id: 49,
-    price: 6.0e28,
+    price: 6e28,
     title: "MineT11",
     description: "double the Mine production."
   },
   {
     id: 50,
-    price: 6.0e32,
+    price: 6e32,
     title: "MineT12",
     description: "double the Mine production."
   },
@@ -420,19 +420,19 @@ export const UpgradeDetailList = [
   },
   {
     id: 66,
-    price: 7.0e7,
+    price: 7e7,
     title: "BankT2",
     description: "double the Bank production."
   },
   {
     id: 67,
-    price: 7.0e8,
+    price: 7e8,
     title: "BankT3",
     description: "double the Bank production."
   },
   {
     id: 68,
-    price: 7.0e10,
+    price: 7e10,
     title: "BankT4",
     description: "double the Bank production."
   },
@@ -444,31 +444,31 @@ export const UpgradeDetailList = [
   },
   {
     id: 70,
-    price: 7.0e14,
+    price: 7e14,
     title: "BankT6",
     description: "double the Bank production."
   },
   {
     id: 71,
-    price: 7.0e17,
+    price: 7e17,
     title: "BankT7",
     description: "double the Bank production."
   },
   {
     id: 72,
-    price: 7.0e20,
+    price: 7e20,
     title: "BankT8",
     description: "double the Bank production."
   },
   {
     id: 73,
-    price: 7.0e23,
+    price: 7e23,
     title: "BankT9",
     description: "double the Bank production."
   },
   {
     id: 74,
-    price: 7.0e26,
+    price: 7e26,
     title: "BankT10",
     description: "double the Bank production."
   },
@@ -480,13 +480,13 @@ export const UpgradeDetailList = [
   },
   {
     id: 76,
-    price: 7.0e34,
+    price: 7e34,
     title: "BankT12",
     description: "double the Bank production."
   },
   {
     id: 77,
-    price: 7.0e38,
+    price: 7e38,
     title: "BankT13",
     description: "double the Bank production."
   },
@@ -494,7 +494,7 @@ export const UpgradeDetailList = [
   // Temple tiered upgrade
   {
     id: 78,
-    price: 2.0e8,
+    price: 2e8,
     title: "TempleT1",
     description: "double the Temple production."
   },
@@ -518,7 +518,7 @@ export const UpgradeDetailList = [
   },
   {
     id: 82,
-    price: 1.0e14,
+    price: 1e14,
     title: "TempleT5",
     description: "double the Temple production."
   },
@@ -554,7 +554,7 @@ export const UpgradeDetailList = [
   },
   {
     id: 88,
-    price: 1.0e32,
+    price: 1e32,
     title: "TempleT11",
     description: "double the Temple production."
   },
@@ -820,19 +820,19 @@ export const UpgradeDetailList = [
   },
   {
     id: 131,
-    price: 5.0e13,
+    price: 5e13,
     title: "PortalT2",
     description: "double the Portal production."
   },
   {
     id: 132,
-    price: 5.0e14,
+    price: 5e14,
     title: "PortalT3",
     description: "double the Portal production."
   },
   {
     id: 133,
-    price: 5.0e16,
+    price: 5e16,
     title: "PortalT4",
     description: "double the Portal production."
   },
@@ -844,31 +844,31 @@ export const UpgradeDetailList = [
   },
   {
     id: 135,
-    price: 5.0e20,
+    price: 5e20,
     title: "PortalT6",
     description: "double the Portal production."
   },
   {
     id: 136,
-    price: 5.0e23,
+    price: 5e23,
     title: "PortalT7",
     description: "double the Portal production."
   },
   {
     id: 137,
-    price: 5.0e26,
+    price: 5e26,
     title: "PortalT8",
     description: "double the Portal production."
   },
   {
     id: 138,
-    price: 5.0e29,
+    price: 5e29,
     title: "PortalT9",
     description: "double the Portal production."
   },
   {
     id: 139,
-    price: 5.0e32,
+    price: 5e32,
     title: "PortalT10",
     description: "double the Portal production."
   },
@@ -880,13 +880,13 @@ export const UpgradeDetailList = [
   },
   {
     id: 141,
-    price: 5.0e40,
+    price: 5e40,
     title: "PortalT12",
     description: "double the Portal production."
   },
   {
     id: 142,
-    price: 5.0e44,
+    price: 5e44,
     title: "PortalT13",
     description: "double the Portal production."
   },
@@ -900,7 +900,7 @@ export const UpgradeDetailList = [
   },
   {
     id: 144,
-    price: 7.0e14,
+    price: 7e14,
     title: "TimeMachineT2",
     description: "double the TimeMachine production."
   },
@@ -912,13 +912,13 @@ export const UpgradeDetailList = [
   },
   {
     id: 146,
-    price: 7.0e17,
+    price: 7e17,
     title: "TimeMachineT4",
     description: "double the TimeMachine production."
   },
   {
     id: 147,
-    price: 7.0e19,
+    price: 7e19,
     title: "TimeMachineT5",
     description: "double the TimeMachine production."
   },
@@ -954,13 +954,13 @@ export const UpgradeDetailList = [
   },
   {
     id: 153,
-    price: 7.0e37,
+    price: 7e37,
     title: "TimeMachineT11",
     description: "double the TimeMachine production."
   },
   {
     id: 154,
-    price: 7.0e41,
+    price: 7e41,
     title: "TimeMachineT12",
     description: "double the TimeMachine production."
   },
@@ -1380,7 +1380,7 @@ export const UpgradeDetailList = [
   },
   {
     id: 222,
-    price: 6.0e23,
+    price: 6e23,
     title: "IdleverseT2",
     description: "double the Idleverse production."
   },
@@ -1392,13 +1392,13 @@ export const UpgradeDetailList = [
   },
   {
     id: 224,
-    price: 6.0e26,
+    price: 6e26,
     title: "IdleverseT4",
     description: "double the Idleverse production."
   },
   {
     id: 225,
-    price: 6.0e28,
+    price: 6e28,
     title: "IdleverseT5",
     description: "double the Idleverse production."
   },
@@ -1434,13 +1434,13 @@ export const UpgradeDetailList = [
   },
   {
     id: 231,
-    price: 6.0e46,
+    price: 6e46,
     title: "IdleverseT11",
     description: "double the Idleverse production."
   },
   {
     id: 232,
-    price: 6.0e50,
+    price: 6e50,
     title: "IdleverseT12",
     description: "double the Idleverse production."
   },
@@ -1473,7 +1473,7 @@ export const UpgradeDetailList = [
   },
   {
     id: 237,
-    price: 7.0e7,
+    price: 7e7,
     title: "BankGrandmaType",
     description: "double the grandma production, per grandma have +1% Bank prodeuction."
   },
@@ -1503,13 +1503,13 @@ export const UpgradeDetailList = [
   },
   {
     id: 242,
-    price: 5.0e13,
+    price: 5e13,
     title: "PortalGrandmaType",
     description: "double the grandma production, per grandma have +1% Portal prodeuction."
   },
   {
     id: 243,
-    price: 7.0e14,
+    price: 7e14,
     title: "TimeMachineGrandmaType",
     description: "double the grandma production, per grandma have +1% TimeMachine prodeuction."
   },
@@ -1545,7 +1545,7 @@ export const UpgradeDetailList = [
   },
   {
     id: 249,
-    price: 6.0e23,
+    price: 6e23,
     title: "IdleverseGrandmaType",
     description: "double the grandma production, per grandma have +1% Idleverse prodeuction."
   },
@@ -1590,7 +1590,7 @@ export const UpgradeDetailList = [
   },
   {
     id: 256,
-    price: 2.0e17,
+    price: 2e17,
     title: synergies7",
     description: "upgrade256 description"
   },
@@ -1602,7 +1602,7 @@ export const UpgradeDetailList = [
   },
   {
     id: 258,
-    price: 2.0e17,
+    price: 2e17,
     title: synergies9",
     description: "upgrade258 description"
   },
@@ -1650,7 +1650,7 @@ export const UpgradeDetailList = [
   },
   {
     id: 266,
-    price: 2.0e17,
+    price: 2e17,
     title: synergies17",
     description: "upgrade266 description"
   },
@@ -1760,25 +1760,25 @@ export const UpgradeDetailList = [
   },
   {
     id: 284,
-    price: 1.0e7,
+    price: 1e7,
     title: standard3",
     description: "increase 1% production"
   },
   {
     id: 285,
-    price: 5.0e7,
+    price: 5e7,
     title: standard4",
     description: "increase 2% production"
   },
   {
     id: 286,
-    price: 1.0e8,
+    price: 1e8,
     title: standard5",
     description: "increase 2% production"
   },
   {
     id: 287,
-    price: 5.0e8,
+    price: 5e8,
     title: standard6",
     description: "increase 2% production"
   },
@@ -1796,31 +1796,31 @@ export const UpgradeDetailList = [
   },
   {
     id: 290,
-    price: 1.0e10,
+    price: 1e10,
     title: standard9",
     description: "increase 2% production"
   },
   {
     id: 291,
-    price: 5.0e10,
+    price: 5e10,
     title: standard10",
     description: "increase 2% production"
   },
   {
     id: 292,
-    price: 1.0e11,
+    price: 1e11,
     title: standard11",
     description: "increase 5% production"
   },
   {
     id: 293,
-    price: 1.0e11,
+    price: 1e11,
     title: standard12",
     description: "increase 5% production"
   },
   {
     id: 294,
-    price: 5.0e11,
+    price: 5e11,
     title: standard13",
     description: "increase 2% production"
   },
@@ -1838,31 +1838,31 @@ export const UpgradeDetailList = [
   },
   {
     id: 297,
-    price: 1.0e13,
+    price: 1e13,
     title: standard16",
     description: "increase 2% production"
   },
   {
     id: 298,
-    price: 5.0e13,
+    price: 5e13,
     title: standard17",
     description: "increase 2% production"
   },
   {
     id: 299,
-    price: 1.0e14,
+    price: 1e14,
     title: standard18",
     description: "increase 2% production"
   },
   {
     id: 300,
-    price: 5.0e14,
+    price: 5e14,
     title: standard19",
     description: "increase 2% production"
   },
   {
     id: 301,
-    price: 5.0e14,
+    price: 5e14,
     title: standard20",
     description: "increase 2% production"
   },
@@ -1880,37 +1880,37 @@ export const UpgradeDetailList = [
   },
   {
     id: 304,
-    price: 1.0e16,
+    price: 1e16,
     title: standard23",
     description: "increase 2% production"
   },
   {
     id: 305,
-    price: 1.0e16,
+    price: 1e16,
     title: standard24",
     description: "increase 2% production"
   },
   {
     id: 306,
-    price: 5.0e16,
+    price: 5e16,
     title: standard25",
     description: "increase 1% production"
   },
   {
     id: 307,
-    price: 5.0e16,
+    price: 5e16,
     title: standard26",
     description: "increase 5% production"
   },
   {
     id: 308,
-    price: 1.0e17,
+    price: 1e17,
     title: standard27",
     description: "increase 3% production"
   },
   {
     id: 309,
-    price: 5.0e17,
+    price: 5e17,
     title: standard28",
     description: "increase 3% production"
   },
@@ -1928,25 +1928,25 @@ export const UpgradeDetailList = [
   },
   {
     id: 312,
-    price: 1.0e19,
+    price: 1e19,
     title: standard31",
     description: "increase 3% production"
   },
   {
     id: 313,
-    price: 5.0e19,
+    price: 5e19,
     title: standard32",
     description: "increase 3% production"
   },
   {
     id: 314,
-    price: 1.0e20,
+    price: 1e20,
     title: standard33",
     description: "increase 4% production"
   },
   {
     id: 315,
-    price: 5.0e20,
+    price: 5e20,
     title: standard34",
     description: "increase 4% production"
   },
@@ -1964,25 +1964,25 @@ export const UpgradeDetailList = [
   },
   {
     id: 318,
-    price: 1.0e22,
+    price: 1e22,
     title: standard37",
     description: "increase 4% production"
   },
   {
     id: 319,
-    price: 5.0e22,
+    price: 5e22,
     title: standard38",
     description: "increase 4% production"
   },
   {
     id: 320,
-    price: 1.0e23,
+    price: 1e23,
     title: standard39",
     description: "increase 4% production"
   },
   {
     id: 321,
-    price: 5.0e23,
+    price: 5e23,
     title: standard40",
     description: "increase 4% production"
   },
@@ -2000,25 +2000,25 @@ export const UpgradeDetailList = [
   },
   {
     id: 324,
-    price: 1.0e25,
+    price: 1e25,
     title: standard43",
     description: "increase 4% production"
   },
   {
     id: 325,
-    price: 5.0e25,
+    price: 5e25,
     title: standard44",
     description: "increase 4% production"
   },
   {
     id: 326,
-    price: 1.0e26,
+    price: 1e26,
     title: standard45",
     description: "increase 4% production"
   },
   {
     id: 327,
-    price: 5.0e26,
+    price: 5e26,
     title: standard46",
     description: "increase 4% production"
   },
@@ -2036,25 +2036,25 @@ export const UpgradeDetailList = [
   },
   {
     id: 330,
-    price: 1.0e28,
+    price: 1e28,
     title: standard49",
     description: "increase 4% production"
   },
   {
     id: 331,
-    price: 5.0e28,
+    price: 5e28,
     title: standard50",
     description: "increase 4% production"
   },
   {
     id: 332,
-    price: 1.0e29,
+    price: 1e29,
     title: standard51",
     description: "increase 1% production"
   },
   {
     id: 333,
-    price: 5.0e29,
+    price: 5e29,
     title: standard52",
     description: "increase 4% production"
   },
@@ -2072,25 +2072,25 @@ export const UpgradeDetailList = [
   },
   {
     id: 336,
-    price: 1.0e31,
+    price: 1e31,
     title: standard55",
     description: "increase 4% production"
   },
   {
     id: 337,
-    price: 5.0e31,
+    price: 5e31,
     title: standard56",
     description: "increase 4% production"
   },
   {
     id: 338,
-    price: 1.0e32,
+    price: 1e32,
     title: standard57",
     description: "increase 4% production"
   },
   {
     id: 339,
-    price: 5.0e32,
+    price: 5e32,
     title: standard58",
     description: "increase 4% production"
   },
@@ -2108,25 +2108,25 @@ export const UpgradeDetailList = [
   },
   {
     id: 342,
-    price: 1.0e34,
+    price: 1e34,
     title: standard61",
     description: "increase 4% production"
   },
   {
     id: 343,
-    price: 5.0e34,
+    price: 5e34,
     title: standard62",
     description: "increase 4% production"
   },
   {
     id: 344,
-    price: 1.0e35,
+    price: 1e35,
     title: standard63",
     description: "increase 4% production"
   },
   {
     id: 345,
-    price: 5.0e35,
+    price: 5e35,
     title: standard64",
     description: "increase 4% production"
   },
@@ -2144,43 +2144,43 @@ export const UpgradeDetailList = [
   },
   {
     id: 348,
-    price: 1.0e37,
+    price: 1e37,
     title: standard67",
     description: "increase 1% production"
   },
   {
     id: 349,
-    price: 1.0e8,
+    price: 1e8,
     title: standard68",
     description: "increase 2% production"
   },
   {
     id: 350,
-    price: 1.0e8,
+    price: 1e8,
     title: standard69",
     description: "increase 2% production"
   },
   {
     id: 351,
-    price: 1.0e8,
+    price: 1e8,
     title: standard70",
     description: "increase 2% production"
   },
   {
     id: 352,
-    price: 5.0e37,
+    price: 5e37,
     title: standard71",
     description: "increase 4% production"
   },
   {
     id: 353,
-    price: 1.0e38,
+    price: 1e38,
     title: standard72",
     description: "increase 4% production"
   },
   {
     id: 354,
-    price: 5.0e38,
+    price: 5e38,
     title: standard73",
     description: "increase 5% production"
   },
@@ -2198,7 +2198,7 @@ export const UpgradeDetailList = [
   },
   {
     id: 357,
-    price: 1.0e40,
+    price: 1e40,
     title: standard76",
     description: "increase 5% production"
   },
@@ -2210,7 +2210,7 @@ export const UpgradeDetailList = [
   },
   {
     id: 359,
-    price: 1.0e41,
+    price: 1e41,
     title: standard78",
     description: "increase 5% production"
   },
@@ -2234,7 +2234,7 @@ export const UpgradeDetailList = [
   },
   {
     id: 363,
-    price: 1.0e43,
+    price: 1e43,
     title: standard82",
     description: "increase 5% production"
   },
@@ -2252,7 +2252,7 @@ export const UpgradeDetailList = [
   },
   {
     id: 366,
-    price: 1.0e43,
+    price: 1e43,
     title: standard85",
     description: "increase 5% production"
   },
@@ -2276,7 +2276,7 @@ export const UpgradeDetailList = [
   },
   {
     id: 370,
-    price: 1.0e46,
+    price: 1e46,
     title: standard89",
     description: "increase 5% production"
   },
@@ -2294,7 +2294,7 @@ export const UpgradeDetailList = [
   },
   {
     id: 373,
-    price: 1.0e47,
+    price: 1e47,
     title: standard92",
     description: "increase 5% production"
   },
@@ -2324,7 +2324,7 @@ export const UpgradeDetailList = [
   },
   {
     id: 378,
-    price: 1.0e49,
+    price: 1e49,
     title: standard97",
     description: "increase 5% production"
   },
@@ -2336,7 +2336,7 @@ export const UpgradeDetailList = [
   },
   {
     id: 380,
-    price: 1.0e50,
+    price: 1e50,
     title: standard99",
     description: "increase 5% production"
   },
@@ -2366,7 +2366,7 @@ export const UpgradeDetailList = [
   },
   {
     id: 385,
-    price: 1.0e52,
+    price: 1e52,
     title: standard104",
     description: "increase 5% production"
   },
@@ -2378,7 +2378,7 @@ export const UpgradeDetailList = [
   },
   {
     id: 387,
-    price: 1.0e53,
+    price: 1e53,
     title: standard106",
     description: "increase 5% production"
   },
@@ -2402,7 +2402,7 @@ export const UpgradeDetailList = [
   },
   {
     id: 391,
-    price: 1.0e55,
+    price: 1e55,
     title: standard110",
     description: "increase 5% production"
   },
@@ -2414,7 +2414,7 @@ export const UpgradeDetailList = [
   },
   {
     id: 393,
-    price: 1.0e56,
+    price: 1e56,
     title: standard112",
     description: "increase 5% production"
   },
@@ -2438,7 +2438,7 @@ export const UpgradeDetailList = [
   },
   {
     id: 397,
-    price: 1.0e58,
+    price: 1e58,
     title: standard116",
     description: "increase 5% production"
   },
@@ -2450,7 +2450,7 @@ export const UpgradeDetailList = [
   },
   {
     id: 399,
-    price: 1.0e59,
+    price: 1e59,
     title: standard118",
     description: "increase 5% production"
   },
@@ -2468,73 +2468,73 @@ export const UpgradeDetailList = [
   },
   {
     id: 402,
-    price: 1.0e8,
+    price: 1e8,
     title: standard121",
     description: "increase 2% production"
   },
   {
     id: 403,
-    price: 5.0e8,
+    price: 5e8,
     title: standard122",
     description: "increase 2% production"
   },
   {
     id: 404,
-    price: 1.0e14,
+    price: 1e14,
     title: britishTea1",
     description: "increase 2% production"
   },
   {
     id: 405,
-    price: 1.0e14,
+    price: 1e14,
     title: britishTea2",
     description: "increase 2% production"
   },
   {
     id: 406,
-    price: 1.0e14,
+    price: 1e14,
     title: britishTea3",
     description: "increase 2% production"
   },
   {
     id: 407,
-    price: 1.0e14,
+    price: 1e14,
     title: britishTea4",
     description: "increase 2% production"
   },
   {
     id: 408,
-    price: 1.0e14,
+    price: 1e14,
     title: britishTea5",
     description: "increase 2% production"
   },
   {
     id: 409,
-    price: 1.0e14,
+    price: 1e14,
     title: britishTea6",
     description: "increase 2% production"
   },
   {
     id: 410,
-    price: 1.0e16,
+    price: 1e16,
     title: brand1",
     description: "increase 3% production"
   },
   {
     id: 411,
-    price: 1.0e16,
+    price: 1e16,
     title: brand2",
     description: "increase 3% production"
   },
   {
     id: 412,
-    price: 1.0e16,
+    price: 1e16,
     title: brand3",
     description: "increase 3% production"
   },
   {
     id: 413,
-    price: 1.0e16,
+    price: 1e16,
     title: brand4",
     description: "increase 3% production"
   },
@@ -2618,61 +2618,61 @@ export const UpgradeDetailList = [
   },
   {
     id: 427,
-    price: 1.0e7,
+    price: 1e7,
     title: macarons2",
     description: "increase 3% production"
   },
   {
     id: 428,
-    price: 1.0e10,
+    price: 1e10,
     title: macarons3",
     description: "increase 3% production"
   },
   {
     id: 429,
-    price: 1.0e13,
+    price: 1e13,
     title: macarons4",
     description: "increase 3% production"
   },
   {
     id: 430,
-    price: 1.0e16,
+    price: 1e16,
     title: macarons5",
     description: "increase 3% production"
   },
   {
     id: 431,
-    price: 1.0e19,
+    price: 1e19,
     title: macarons6",
     description: "increase 3% production"
   },
   {
     id: 432,
-    price: 1.0e22,
+    price: 1e22,
     title: macarons7",
     description: "increase 3% production"
   },
   {
     id: 433,
-    price: 1.0e25,
+    price: 1e25,
     title: macarons8",
     description: "increase 3% production"
   },
   {
     id: 434,
-    price: 1.0e28,
+    price: 1e28,
     title: macarons9",
     description: "increase 3% production"
   },
   {
     id: 435,
-    price: 1.0e23,
+    price: 1e23,
     title: butter1",
     description: "increase 4% production"
   },
   {
     id: 436,
-    price: 5.0e23,
+    price: 5e23,
     title: butter2",
     description: "increase 4% production"
   },
@@ -2690,19 +2690,19 @@ export const UpgradeDetailList = [
   },
   {
     id: 439,
-    price: 1.0e25,
+    price: 1e25,
     title: butter5",
     description: "increase 4% production"
   },
   {
     id: 440,
-    price: 1.0e35,
+    price: 1e35,
     title: maybe1",
     description: "increase 4% production"
   },
   {
     id: 441,
-    price: 1.0e37,
+    price: 1e37,
     title: maybe2",
     description: "increase 4% production"
   },
@@ -2714,13 +2714,13 @@ export const UpgradeDetailList = [
   },
   {
     id: 443,
-    price: 1.0e41,
+    price: 1e41,
     title: maybe4",
     description: "increase 4% production"
   },
   {
     id: 444,
-    price: 1.0e43,
+    price: 1e43,
     title: maybe5",
     description: "increase 4% production"
   },
@@ -2732,7 +2732,7 @@ export const UpgradeDetailList = [
   },
   {
     id: 446,
-    price: 1.0e34,
+    price: 1e34,
     title: not1",
     description: "increase 4% production"
   },
@@ -2744,13 +2744,13 @@ export const UpgradeDetailList = [
   },
   {
     id: 448,
-    price: 1.0e38,
+    price: 1e38,
     title: not3",
     description: "increase 4% production"
   },
   {
     id: 449,
-    price: 1.0e40,
+    price: 1e40,
     title: not4",
     description: "increase 4% production"
   },
@@ -2762,19 +2762,19 @@ export const UpgradeDetailList = [
   },
   {
     id: 451,
-    price: 1.0e44,
+    price: 1e44,
     title: not6",
     description: "increase 5% production"
   },
   {
     id: 452,
-    price: 1.0e46,
+    price: 1e46,
     title: not7",
     description: "increase 5% production"
   },
   {
     id: 453,
-    price: 1.0e31,
+    price: 1e31,
     title: pastries1",
     description: "increase 4% production"
   },
@@ -2786,13 +2786,13 @@ export const UpgradeDetailList = [
   },
   {
     id: 455,
-    price: 1.0e35,
+    price: 1e35,
     title: pastries3",
     description: "increase 4% production"
   },
   {
     id: 456,
-    price: 1.0e37,
+    price: 1e37,
     title: pastries4",
     description: "increase 4% production"
   },
@@ -2804,13 +2804,13 @@ export const UpgradeDetailList = [
   },
   {
     id: 458,
-    price: 1.0e41,
+    price: 1e41,
     title: pastries6",
     description: "increase 4% production"
   },
   {
     id: 459,
-    price: 1.0e43,
+    price: 1e43,
     title: pastries7",
     description: "increase 4% production"
   },
@@ -2834,150 +2834,152 @@ export const UpgradeDetailList = [
   },
   {
     id: 463,
-    price: 1.0e29,
+    price: 1e29,
     title: chocolatebutter1",
     description: "increase 10% production"
   },
   {
     id: 464,
-    price: 1.0e32,
+    price: 1e32,
     title: chocolatebutter2",
     description: "increase 10% production"
   },
   {
     id: 465,
-    price: 1.0e35,
+    price: 1e35,
     title: chocolatebutter3",
     description: "increase 10% production"
   },
   {
     id: 466,
-    price: 1.0e38,
+    price: 1e38,
     title: chocolatebutter4",
     description: "increase 10% production"
   },
   {
     id: 467,
-    price: 1.0e41,
+    price: 1e41,
     title: chocolatebutter5",
     description: "increase 10% production"
   },
   {
     id: 468,
-    price: 1.0e44,
+    price: 1e44,
     title: chocolatebutter6",
     description: "increase 10% production"
   },
   {
     id: 469,
-    price: 1.0e47,
+    price: 1e47,
     title: chocolatebutter7",
     description: "increase 10% production"
   },
   {
     id: 470,
-    price: 1.0e50,
+    price: 1e50,
     title: chocolatebutter8",
     description: "increase 10% production"
   },
   {
     id: 471,
-    price: 1.0e53,
+    price: 1e53,
     title: chocolatebutter9",
     description: "increase 10% production"
   },
   {
     id: 472,
-    price: 1.0e56,
+    price: 1e56,
     title: chocolatebutter10",
     description: "increase 10% production"
   },
   {
     id: 473,
-    price: 1.0e59,
+    price: 1e59,
     title: chocolatebutter11",
     description: "increase 10% production"
   },
 
-
+  // kitten
   {
     id: 474,
-    price: 100,
-    title: "Upgrade474",
-    description: "upgrade474 description"
+    price: 9e6,
+    title: "kitten1",
+    description: "increase 0.100000 factor"
   },
   {
     id: 475,
-    price: 100,
-    title: "Upgrade475",
-    description: "upgrade475 description"
+    price: 9e9,
+    title: "kitten2",
+    description: "increase 0.125000 factor"
   },
   {
     id: 476,
-    price: 100,
-    title: "Upgrade476",
-    description: "upgrade476 description"
+    price: 9e13,
+    title: "kitten3",
+    description: "increase 0.150000 factor"
   },
   {
     id: 477,
-    price: 100,
-    title: "Upgrade477",
-    description: "upgrade477 description"
+    price: 9e16,
+    title: "kitten4",
+    description: "increase 0.175000 factor"
   },
   {
     id: 478,
-    price: 100,
-    title: "Upgrade478",
-    description: "upgrade478 description"
+    price: 9e20,
+    title: "kitten5",
+    description: "increase 0.200000 factor"
   },
   {
     id: 479,
-    price: 100,
-    title: "Upgrade479",
-    description: "upgrade479 description"
+    price: 9e23,
+    title: "kitten6",
+    description: "increase 0.200000 factor"
   },
   {
     id: 480,
-    price: 100,
-    title: "Upgrade480",
-    description: "upgrade480 description"
+    price: 9e26,
+    title: "kitten7",
+    description: "increase 0.200000 factor"
   },
   {
     id: 481,
-    price: 100,
-    title: "Upgrade481",
-    description: "upgrade481 description"
+    price: 9e29,
+    title: "kitten8",
+    description: "increase 0.200000 factor"
   },
   {
     id: 482,
-    price: 100,
-    title: "Upgrade482",
-    description: "upgrade482 description"
+    price: 9e32,
+    title: "kitten9",
+    description: "increase 0.200000 factor"
   },
   {
     id: 483,
-    price: 100,
-    title: "Upgrade483",
-    description: "upgrade483 description"
+    price: 9e35,
+    title: "kitten10",
+    description: "increase 0.175000 factor"
   },
   {
     id: 484,
-    price: 100,
-    title: "Upgrade484",
-    description: "upgrade484 description"
+    price: 9e38,
+    title: "kitten11",
+    description: "increase 0.150000 factor"
   },
   {
     id: 485,
-    price: 100,
-    title: "Upgrade485",
-    description: "upgrade485 description"
+    price: 9e41,
+    title: "kitten12",
+    description: "increase 0.125000 factor"
   },
   {
     id: 486,
-    price: 100,
-    title: "Upgrade486",
-    description: "upgrade486 description"
+    price: 9e44,
+    title: "kitten13",
+    description: "increase 0.115000 factor"
   },
+
+
   {
     id: 487,
     price: 100,
