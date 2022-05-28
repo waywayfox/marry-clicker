@@ -3,11 +3,11 @@ import React from 'react';
 class ClickingWindow extends React.Component {
   constructor(props) {
     super(props);
-    this.addTotolSubscriber = this.props.addTotolSubscriber.bind(this);
+    this.handleMochiClick = this.props.handleMochiClick.bind(this);
   }
 
   handleClick = () => {
-      this.addTotolSubscriber(1);
+      this.handleMochiClick();
   }
 
   render() {

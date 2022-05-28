@@ -18,19 +18,20 @@ class Game extends React.Component {
     super(props);
 
     this.state = {
-      totalSubscriber: 200,
+      totalSubscriber: 2000000,
       subscriberPerSecond: 0,
       buildingList: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
       upgradeList: Array(730).fill(0)
     }
     this.baseSps = [0.1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
-
+    this.modifiedSps = null;
+    this.subscriberperclick = 0
   }
 
 
-  addTotolSubscriber = (count) => {
+  handleMochiClick = () => {
     this.setState((prevState, props) => ({
-      totalSubscriber: prevState.totalSubscriber + count
+      totalSubscriber: prevState.totalSubscriber + this.subscriberperclick
     }))
   }
 
@@ -49,12 +50,49 @@ class Game extends React.Component {
       base = Math.round(base / digits) * digits;
       this.baseSps[i] = base;
     }
+    this.modifiedSps = this.baseSps.slice(0);
   }
+
+  getThousandMochiBuildingCount = () => {
+    const currentBuildingList = this.state.buildingList.slice(0);
+    let count =currentBuildingList.reduce((pre, cur) => pre + cur, 0);
+    count = count - currentBuildingList[0];
+    return count;
+  }
+
+  calculateSPC = () => {
+    let base = 1;
+    let multiplier = 1;
+    let currentUpgradeList = this.state.upgradeList.slice(0);
+    if (currentUpgradeList[0] === UpgradeMode.OWNED) multiplier *= 2
+    if (currentUpgradeList[1] === UpgradeMode.OWNED) multiplier *= 2
+    if (currentUpgradeList[2] === UpgradeMode.OWNED) multiplier *= 2
+    base = base * multiplier;
+
+    if (currentUpgradeList[3] == UpgradeMode.OWNED)
+    {
+      let thousandMochiMultiplier = this.getThousandMochiBuildingCount() * 0.01;
+      if (currentUpgradeList[4] === UpgradeMode.OWNED) thousandMochiMultiplier *= 5
+      if (currentUpgradeList[5] === UpgradeMode.OWNED) thousandMochiMultiplier *= 10
+      if (currentUpgradeList[6] === UpgradeMode.OWNED) thousandMochiMultiplier *= 20
+      if (currentUpgradeList[7] === UpgradeMode.OWNED) thousandMochiMultiplier *= 20
+      if (currentUpgradeList[8] === UpgradeMode.OWNED) thousandMochiMultiplier *= 20
+      if (currentUpgradeList[9] === UpgradeMode.OWNED) thousandMochiMultiplier *= 20
+      if (currentUpgradeList[10] === UpgradeMode.OWNED) thousandMochiMultiplier *= 20
+      if (currentUpgradeList[11] === UpgradeMode.OWNED) thousandMochiMultiplier *= 20
+      if (currentUpgradeList[12] === UpgradeMode.OWNED) thousandMochiMultiplier *= 20
+      base = base + base * thousandMochiMultiplier;
+    }
+
+    this.subscriberperclick = base
+  }
+
+
 
   updateSPS = (count) => {
     let sps = 0;
     this.state.buildingList.forEach((count, index) => {
-      sps += this.baseSps[index] * count
+      sps += this.modifiedSps[index] * count
     });
     console.log(sps);
     this.setState({
@@ -77,7 +115,6 @@ class Game extends React.Component {
    */
   unlockUpgrade = (index) => {
     const newList = this.state.upgradeList.slice(0);
-    console.log("index", index);
     let needUpdate = 0
     if (typeof(index) == 'number')
     {
@@ -91,9 +128,9 @@ class Game extends React.Component {
     {
       for (let i = 0; i < index.length; i++)
       {
-        if (newList[i] === UpgradeMode.LOCK)
+        if (newList[index[i]] === UpgradeMode.LOCK)
         {
-          newList[i] = UpgradeMode.UNLOCK;
+          newList[index[i]] = UpgradeMode.UNLOCK;
           needUpdate = 1;
         }
       }
@@ -101,13 +138,20 @@ class Game extends React.Component {
 
     if (needUpdate === 1)
     {
-      console.log("update unlock");
       this.setState({
         upgradeList: newList,
       });
     }
     return;
   }
+
+  handleUpgradeEffect = (index) => {
+    // if the updgrade effect separated buildings sps
+    // do the recaculate
+    // if not, do others thing
+    this.recaculateModifiedSps(index);
+  }
+
 
 
   buyUpgrade = (index) => {
@@ -116,11 +160,15 @@ class Game extends React.Component {
     let newTotal = this.state.totalSubscriber - UpgradeDetailList[index].price;
     newList[index] = UpgradeMode.OWNED;
 
+    this.handleUpgradeEffect(index);
+
     this.setState({
       upgradeList: newList,
       totalSubscriber: newTotal
-    }, this.updateSPS);
-
+    }, ()=>{
+      this.updateSPS()
+      this.calculateSPC()
+    });
 
   }
 
@@ -128,10 +176,9 @@ class Game extends React.Component {
   checkUpgradeUnlock = (index, amount) => {
     let indexList = [];
     console.log(index, amount);
-    console.log("here0");
+    // check the tier upgrade
     if (index == 0)
     {
-      console.log("here1");
       if (amount >= 1) indexList.push(0, 1);
       if (amount >= 10) indexList.push(2);
       if (amount >= 25) indexList.push(3);
@@ -145,7 +192,30 @@ class Game extends React.Component {
       if (amount >= 400) indexList.push(11);
       if (amount >= 450) indexList.push(12);
     }
-    console.log(indexList);
+    else
+    {
+      let baseUpgradeID = 13 * index;
+      if (amount >= 1) indexList.push(baseUpgradeID);
+      if (amount >= 5) indexList.push(baseUpgradeID + 1);
+      if (amount >= 25) indexList.push(baseUpgradeID + 2);
+      if (amount >= 50) indexList.push(baseUpgradeID + 3);
+      if (amount >= 100) indexList.push(baseUpgradeID + 4);
+      if (amount >= 150) indexList.push(baseUpgradeID + 5);
+      if (amount >= 200) indexList.push(baseUpgradeID + 6);
+      if (amount >= 250) indexList.push(baseUpgradeID + 7);
+      if (amount >= 300) indexList.push(baseUpgradeID + 8);
+      if (amount >= 350) indexList.push(baseUpgradeID + 9);
+      if (amount >= 400) indexList.push(baseUpgradeID + 10);
+      if (amount >= 450) indexList.push(baseUpgradeID + 11);
+      if (amount >= 500) indexList.push(baseUpgradeID + 12);
+    }
+
+
+
+
+
+
+
     this.unlockUpgrade(indexList);
   }
 
@@ -172,11 +242,16 @@ class Game extends React.Component {
       newList[index] = 0;
     }
     this.checkUpgradeUnlock(index, newList[index]);
+    this.updateSynergyEffectSps();
 
     this.setState({
       buildingList: newList,
       totalSubscriber: newTotal
-    }, this.updateSPS);
+    },  ()=>{
+      this.updateSPS()
+      this.calculateSPC()
+    });
+
   }
 
   componentDidMount() {
@@ -194,14 +269,14 @@ class Game extends React.Component {
           {/**Left part: clicking part and show current subscriber**/}
           <Col span={8}>
             <h1>{Math.floor( this.state.totalSubscriber )}</h1>
-            <ClickingWindow addTotolSubscriber={this.addTotolSubscriber} />
+            <ClickingWindow subscriberperclick={this.state.subscriberperclick} handleMochiClick={this.handleMochiClick} />
           </Col>
 
           {/**Middle part: news, some buttons, and show the image for every upgrade**/}
 
           <Col span={8}>
             <Layout>
-              <Content>
+              <Content style={{ overflow: 'scroll' }} >
                 middleYesterdayDay, my wife and I watched thethis filmmovie, For Here or To GoStart? atin our local San Francisco theaterhouse. SetMade in 2009, thethis filmmovie is one of the first bilingual filmsmovies to be nationally releasedissued inat the U.S. It tells the storytale of high-skilled immigrants and thethose challenges & emotions they goget through with their lives — from lovepassion, entrepreneurship, acceptancetolerance, assimilationabsorption and hatehatred. Depicting multiple generations, thethis filmmovie does a masterful jobwork of making people laugh, thinkbelieve and empathizeunderstand. This is athe rare entrepreneurial effortendeavor by first-time filmmakerproducer and full-time Gap employeeworker Rishi. In 2010, Rishi taughtlearnt himself screenwriting through Google and 7 years laterafter seesrealizes the fruits of his laborwork on 29 biglarge screens across thethis nationcountry. We couldwould n't be more proud of thisthe filmmovie, as it tellssays the immigrant story through athe lens seldomrarely seen — authenticgenuine and light-hearted.
                 middleYesterdayDay, my wife and I watched thethis filmmovie, For Here or To GoStart? atin our local San Francisco theaterhouse. SetMade in 2009, thethis filmmovie is one of the first bilingual filmsmovies to be nationally releasedissued inat the U.S. It tells the storytale of high-skilled immigrants and thethose challenges & emotions they goget through with their lives — from lovepassion, entrepreneurship, acceptancetolerance, assimilationabsorption and hatehatred. Depicting multiple generations, thethis filmmovie does a masterful jobwork of making people laugh, thinkbelieve and empathizeunderstand. This is athe rare entrepreneurial effortendeavor by first-time filmmakerproducer and full-time Gap employeeworker Rishi. In 2010, Rishi taughtlearnt himself screenwriting through Google and 7 years laterafter seesrealizes the fruits of his laborwork on 29 biglarge screens across thethis nationcountry. We couldwould n't be more proud of thisthe filmmovie, as it tellssays the immigrant story through athe lens seldomrarely seen — authenticgenuine and light-hearted.
                 middleYesterdayDay, my wife and I watched thethis filmmovie, For Here or To GoStart? atin our local San Francisco theaterhouse. SetMade in 2009, thethis filmmovie is one of the first bilingual filmsmovies to be nationally releasedissued inat the U.S. It tells the storytale of high-skilled immigrants and thethose challenges & emotions they goget through with their lives — from lovepassion, entrepreneurship, acceptancetolerance, assimilationabsorption and hatehatred. Depicting multiple generations, thethis filmmovie does a masterful jobwork of making people laugh, thinkbelieve and empathizeunderstand. This is athe rare entrepreneurial effortendeavor by first-time filmmakerproducer and full-time Gap employeeworker Rishi. In 2010, Rishi taughtlearnt himself screenwriting through Google and 7 years laterafter seesrealizes the fruits of his laborwork on 29 biglarge screens across thethis nationcountry. We couldwould n't be more proud of thisthe filmmovie, as it tellssays the immigrant story through athe lens seldomrarely seen — authenticgenuine and light-hearted.
@@ -265,7 +340,7 @@ class Game extends React.Component {
           </Col>
 
           {/**Right part: upgrade pannel**/}
-          <Col span={8}>
+          <Col span={8} style={{ overflow: 'auto' }}>
             <UpgradePanel upgradeList={this.state.upgradeList} totalSubscriber={this.state.totalSubscriber} buyUpgrade={this.buyUpgrade}/>
             <PurchasePanel totalSubscriber={this.state.totalSubscriber} buildingList={this.state.buildingList} setBuildingAmount={this.setBuildingAmount} />
           </Col>
