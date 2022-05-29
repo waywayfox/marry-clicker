@@ -25,23 +25,43 @@ class Game extends React.Component {
     }
     this.baseSps = [0.1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
     this.modifiedSps = null;
+    this.buildingMultiplier =[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1];
+    this.globalMultiplier = 1;
     this.subscriberperclick = 0
   }
 
 
-  handleMochiClick = () => {
+  /**
+   * Name: handleMochiClick
+   *
+   * Description: handle the click button of mochiru.
+   *
+   */
+  handleMochiClick = () => {//{{{
     this.setState((prevState, props) => ({
       totalSubscriber: prevState.totalSubscriber + this.subscriberperclick
     }))
-  }
+  }//}}}
 
-  updateSubscriber = () => {
+  /**
+   * Name: updateSubscriber
+   *
+   * Description: update total subscriber per second.
+   *
+   */
+  updateSubscriber = () => {//{{{
     this.setState((prevState, props) => ({
       totalSubscriber: prevState.totalSubscriber + this.state.subscriberPerSecond
     }))
-  }
+  }//}}}
 
-  calculateBaseSps = () => {
+  /**
+   * Name: calculateBaseSps
+   *
+   * Description: initailize baseSps and modifiedSps.
+   *
+   */
+  calculateBaseSps = () => {//{{{
     for (let i = 1; i < BUILDING_MAX; i += 1)
     {
       let id = i;
@@ -51,16 +71,28 @@ class Game extends React.Component {
       this.baseSps[i] = base;
     }
     this.modifiedSps = this.baseSps.slice(0);
-  }
+  }//}}}
 
-  getThousandMochiBuildingCount = () => {
+  /**
+   * Name: getThousandMochiBuildingCount
+   *
+   * Description: get the number of non-mochi buildings.
+   *
+   */
+  getThousandMochiBuildingCount = () => {//{{{
     const currentBuildingList = this.state.buildingList.slice(0);
     let count =currentBuildingList.reduce((pre, cur) => pre + cur, 0);
     count = count - currentBuildingList[0];
     return count;
-  }
+  }//}}}
 
-  calculateSPC = () => {
+  /**
+   * Name: calculateSPC
+   *
+   * Description: calculate the subscriber per click, and update to the state
+   *
+   */
+  calculateSPC = () => {//{{{
     let base = 1;
     let multiplier = 1;
     let currentUpgradeList = this.state.upgradeList.slice(0);
@@ -71,7 +103,7 @@ class Game extends React.Component {
 
     if (currentUpgradeList[3] == UpgradeMode.OWNED)
     {
-      let thousandMochiMultiplier = this.getThousandMochiBuildingCount() * 0.01;
+      let thousandMochiMultiplier = 1 + this.getThousandMochiBuildingCount() * 0.01;
       if (currentUpgradeList[4] === UpgradeMode.OWNED) thousandMochiMultiplier *= 5
       if (currentUpgradeList[5] === UpgradeMode.OWNED) thousandMochiMultiplier *= 10
       if (currentUpgradeList[6] === UpgradeMode.OWNED) thousandMochiMultiplier *= 20
@@ -85,20 +117,55 @@ class Game extends React.Component {
     }
 
     this.subscriberperclick = base
-  }
+  }//}}}
+
+  /**
+   * Name: recalculateMochiruMultiplier
+   *
+   * Description: recalculate thousand mochiru multiplier
+   *              It should be called at tier upgrade and other building bought.
+   *
+   */
+  recalculateMochiruMultiplier = () => {//{{{
+    let thousandMochiMultiplier = 1;
+    let currentUpgradeList = this.state.upgradeList.slice(0);
+    if (currentUpgradeList[3] == UpgradeMode.OWNED)
+    {
+      console.log("this.getThousandMochiBuildingCount()", this.getThousandMochiBuildingCount() * 0.01 + 1);
+      thousandMochiMultiplier = 1 + this.getThousandMochiBuildingCount() * 0.01;
+      if (currentUpgradeList[4] === UpgradeMode.OWNED) thousandMochiMultiplier *= 5;
+      if (currentUpgradeList[5] === UpgradeMode.OWNED) thousandMochiMultiplier *= 10;
+      if (currentUpgradeList[6] === UpgradeMode.OWNED) thousandMochiMultiplier *= 20;
+      if (currentUpgradeList[7] === UpgradeMode.OWNED) thousandMochiMultiplier *= 20;
+      if (currentUpgradeList[8] === UpgradeMode.OWNED) thousandMochiMultiplier *= 20;
+      if (currentUpgradeList[9] === UpgradeMode.OWNED) thousandMochiMultiplier *= 20;
+      if (currentUpgradeList[10] === UpgradeMode.OWNED) thousandMochiMultiplier *= 20;
+      if (currentUpgradeList[11] === UpgradeMode.OWNED) thousandMochiMultiplier *= 20;
+      if (currentUpgradeList[12] === UpgradeMode.OWNED) thousandMochiMultiplier *= 20;
+    }
+    console.log("thousandMochiMultiplier", thousandMochiMultiplier);
+    this.buildingMultiplier[0] = thousandMochiMultiplier;
+    console.log("this.buildingMultiplier[0]", this.buildingMultiplier[0]);
+  }//}}}
 
 
 
-  updateSPS = (count) => {
+  /**
+   * Name: updateSPS
+   *
+   * Description: recalculate the global sps and update to the state.
+   *
+   */
+  updateSPS = () => {//{{{
     let sps = 0;
     this.state.buildingList.forEach((count, index) => {
-      sps += this.modifiedSps[index] * count
+      sps += this.modifiedSps[index] * this.buildingMultiplier[index] * this.globalMultiplier * count
     });
     console.log(sps);
     this.setState({
       subscriberPerSecond: sps
     });
-  }
+  }//}}}
 
 
 
@@ -109,10 +176,13 @@ class Game extends React.Component {
 **************************************************************************************************************/
 
   /**
+   * Name: unlockUpgrade
+   *
    * Description set buildingList and add cost to totalSubscriber
    *
    * @param {integer} index           the upgrade id or a array of upgarde list.
    */
+  // unlockUpgrade {{{
   unlockUpgrade = (index) => {
     const newList = this.state.upgradeList.slice(0);
     let needUpdate = 0
@@ -144,36 +214,110 @@ class Game extends React.Component {
     }
     return;
   }
+  // }}}
 
-  handleUpgradeEffect = (index) => {
-    // if the updgrade effect separated buildings sps
-    // do the recaculate
-    // if not, do others thing
-    this.recaculateModifiedSps(index);
+  handleTieredUpgrade = (upgradeIndex) => {
+    // don't update sps if the upgrade is thousandmochi related
+    if (upgradeIndex >= 3 && upgradeIndex <= 12)
+    {
+      return;
+    }
+    let buildingIndex = Math.floor( upgradeIndex / 13 );
+    this.modifiedSps[buildingIndex] = this.modifiedSps[buildingIndex] * 2;
+    return;
+  }
+
+  handleMarryTarouTypeUpgrade = () => {
+
+
   }
 
 
+  handleSynergyUpgrade = () => {
 
-  buyUpgrade = (index) => {
-    console.log("buy index: ", index)
+
+
+  }
+
+  handleSubscriberTypeUpgrade = (upgradeIndex) => {
+
+  }
+
+
+  /**
+   * Name: handleUpgradeEffect
+   *
+   * Description: handle the building's sps and all sps multiplier
+   *
+   * @param {integer} index           the upgrade id.
+   */
+  handleUpgradeEffect = (upgradeIndex) => {//{{{
+    // this function handldle three type of upgrade
+    // (1) that will change building modified sps, ex tiered, grandma
+    // (2) thath will change bulding multiplier, synergy
+    // (3) thath will change global multiplier, cookie, kitten
+    // TODO: finish other upgrade
+    if (upgradeIndex >=0 && upgradeIndex <= 233)
+    {
+      // tiered upgrade
+      this.handleTieredUpgrade(upgradeIndex);
+    }
+    else if (upgradeIndex >=234 && upgradeIndex <= 249)
+    {
+      // grandma type upgrade
+
+    }
+    else if (upgradeIndex >=234 && upgradeIndex <= 249)
+    {
+      // synergy upgrade
+
+    }
+    else if (upgradeIndex >=234 && upgradeIndex <= 249)
+    {
+      // cookie upgrade
+
+    }
+
+  }//}}}
+
+
+  /**
+   * Name: buyUpgrade
+   *
+   * Description: process the upgrade buying process, when the user click on the buyable upgrade
+   *
+   * @param {integer} upgradeIndex           the upgrade id.
+   */
+  buyUpgrade = (upgradeIndex) => {//{{{
+    console.log("buy index: ", upgradeIndex)
     const newList = this.state.upgradeList.slice(0);
-    let newTotal = this.state.totalSubscriber - UpgradeDetailList[index].price;
-    newList[index] = UpgradeMode.OWNED;
-
-    this.handleUpgradeEffect(index);
+    let newTotal = this.state.totalSubscriber - UpgradeDetailList[upgradeIndex].price;
+    newList[upgradeIndex] = UpgradeMode.OWNED;
+    this.handleUpgradeEffect(upgradeIndex);
 
     this.setState({
       upgradeList: newList,
       totalSubscriber: newTotal
-    }, ()=>{
-      this.updateSPS()
-      this.calculateSPC()
+    }, () => {
+      if (upgradeIndex >= 0 && upgradeIndex <= 12)
+      {
+        this.recalculateMochiruMultiplier();
+        this.calculateSPC();
+      }
+      this.updateSPS();
     });
 
-  }
+  }//}}}
 
 
-  checkUpgradeUnlock = (index, amount) => {
+  /**
+   * Name: checkUpgradeUnlock
+   *
+   * Description: chekc if the new upgrade can be unlock when user buy new building.
+   *
+   * @param {integer} index           the upgrade id.
+   */
+  checkUpgradeUnlock = (index, amount) => {//{{{
     let indexList = [];
     console.log(index, amount);
     // check the tier upgrade
@@ -217,7 +361,7 @@ class Game extends React.Component {
 
 
     this.unlockUpgrade(indexList);
-  }
+  }//}}}
 
 
 /*************************************************************************************************************
@@ -227,13 +371,15 @@ class Game extends React.Component {
 *************************************************************************************************************/
 
   /**
+   * Name: setBuildingAmount
+   *
    * Description set buildingList and add cost to totalSubscriber
    *
    * @param {integer} index           index of buildingList.
    * @param {integer} count           amount of user buy or sell(negative).
    * @param {integer} cost            cost of buying or earn of selling.
    */
-  setBuildingAmount = (index, count, cost) => {
+  setBuildingAmount = (index, count, cost) => {//{{{
     const newList = this.state.buildingList.slice(0);
     let newTotal = count > 0? this.state.totalSubscriber - cost: this.state.totalSubscriber + cost;
     newList[index] += count;
@@ -242,21 +388,21 @@ class Game extends React.Component {
       newList[index] = 0;
     }
     this.checkUpgradeUnlock(index, newList[index]);
-    this.updateSynergyEffectSps();
 
     this.setState({
       buildingList: newList,
       totalSubscriber: newTotal
     },  ()=>{
-      this.updateSPS()
-      this.calculateSPC()
+      this.recalculateMochiruMultiplier()
+      this.calculateSPC();
+      this.updateSPS();
     });
 
-  }
+  }//}}}
 
   componentDidMount() {
-    setInterval(this.updateSubscriber, 1000);
     this.calculateBaseSps();
+    setInterval(this.updateSubscriber, 1000);
   }
 
 

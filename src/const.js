@@ -32,7 +32,7 @@ export const UpgradeDetailList = [
   {
     id: 3,
     price: 100000,
-    title: "cursorT3",
+    title: "thousand mochiru",
     description: "upgrade3 description"
   },
   {
