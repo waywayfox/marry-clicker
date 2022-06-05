@@ -335,10 +335,11 @@ class Game extends React.Component {
       if (amount >= 350) indexList.push(10);
       if (amount >= 400) indexList.push(11);
       if (amount >= 450) indexList.push(12);
+      if (amount >= 500) indexList.push(13);
     }
     else
     {
-      let baseUpgradeID = 13 * index;
+      let baseUpgradeID = 14 * index;
       if (amount >= 1) indexList.push(baseUpgradeID);
       if (amount >= 5) indexList.push(baseUpgradeID + 1);
       if (amount >= 25) indexList.push(baseUpgradeID + 2);
@@ -352,6 +353,7 @@ class Game extends React.Component {
       if (amount >= 400) indexList.push(baseUpgradeID + 10);
       if (amount >= 450) indexList.push(baseUpgradeID + 11);
       if (amount >= 500) indexList.push(baseUpgradeID + 12);
+      if (amount >= 550) indexList.push(baseUpgradeID + 13);
     }
 
 
