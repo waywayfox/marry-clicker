@@ -20,12 +20,12 @@ class Game extends React.Component {
     this.state = {
       totalSubscriber: 2000000,
       subscriberPerSecond: 0,
-      buildingList: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+      buildingList: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
       upgradeList: Array(730).fill(0)
     }
-    this.baseSps = [0.1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+    this.baseSps = [0.1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
     this.modifiedSps = null;
-    this.buildingMultiplier =[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1];
+    this.buildingMultiplier =[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1];
     this.globalMultiplier = 1;
     this.subscriberperclick = 0
   }
@@ -113,6 +113,7 @@ class Game extends React.Component {
       if (currentUpgradeList[10] === UpgradeMode.OWNED) thousandMochiMultiplier *= 20
       if (currentUpgradeList[11] === UpgradeMode.OWNED) thousandMochiMultiplier *= 20
       if (currentUpgradeList[12] === UpgradeMode.OWNED) thousandMochiMultiplier *= 20
+      if (currentUpgradeList[13] === UpgradeMode.OWNED) thousandMochiMultiplier *= 20
       base = base + base * thousandMochiMultiplier;
     }
 
@@ -131,7 +132,6 @@ class Game extends React.Component {
     let currentUpgradeList = this.state.upgradeList.slice(0);
     if (currentUpgradeList[3] == UpgradeMode.OWNED)
     {
-      console.log("this.getThousandMochiBuildingCount()", this.getThousandMochiBuildingCount() * 0.01 + 1);
       thousandMochiMultiplier = 1 + this.getThousandMochiBuildingCount() * 0.01;
       if (currentUpgradeList[4] === UpgradeMode.OWNED) thousandMochiMultiplier *= 5;
       if (currentUpgradeList[5] === UpgradeMode.OWNED) thousandMochiMultiplier *= 10;
@@ -142,12 +142,48 @@ class Game extends React.Component {
       if (currentUpgradeList[10] === UpgradeMode.OWNED) thousandMochiMultiplier *= 20;
       if (currentUpgradeList[11] === UpgradeMode.OWNED) thousandMochiMultiplier *= 20;
       if (currentUpgradeList[12] === UpgradeMode.OWNED) thousandMochiMultiplier *= 20;
+      if (currentUpgradeList[13] === UpgradeMode.OWNED) thousandMochiMultiplier *= 20;
     }
-    console.log("thousandMochiMultiplier", thousandMochiMultiplier);
     this.buildingMultiplier[0] = thousandMochiMultiplier;
-    console.log("this.buildingMultiplier[0]", this.buildingMultiplier[0]);
   }//}}}
 
+  recalculateBuildingMultiplier = (buildingIndex) => {
+    // calculate macho type
+
+    // when index is -1, update all multiplier
+    if (buildingIndex == -1)
+    {
+      let i = 2;
+      for (i = 2; i < BUILDING_MAX; i++)
+      {
+        this.recalculateBuildingMultiplier(i);
+      }
+      return;
+    }
+
+    let total = 1;
+    if (buildingIndex == 2 && this.state.upgradeList[266] ) total = total + this.state.buildingList[1] * 0.01;
+    if (buildingIndex == 3 && this.state.upgradeList[267] ) total = total + this.state.buildingList[1] * 0.01;
+    if (buildingIndex == 4 && this.state.upgradeList[268] ) total = total + this.state.buildingList[1] * 0.01;
+    if (buildingIndex == 5 && this.state.upgradeList[269] ) total = total + this.state.buildingList[1] * 0.01;
+    if (buildingIndex == 6 && this.state.upgradeList[270] ) total = total + this.state.buildingList[1] * 0.01;
+    if (buildingIndex == 7 && this.state.upgradeList[271] ) total = total + this.state.buildingList[1] * 0.01;
+    if (buildingIndex == 8 && this.state.upgradeList[272] ) total = total + this.state.buildingList[1] * 0.01;
+    if (buildingIndex == 9 && this.state.upgradeList[273] ) total = total + this.state.buildingList[1] * 0.01;
+    if (buildingIndex == 10 && this.state.upgradeList[274] ) total = total + this.state.buildingList[1] * 0.01;
+    if (buildingIndex == 11 && this.state.upgradeList[275] ) total = total + this.state.buildingList[1] * 0.01;
+    if (buildingIndex == 12 && this.state.upgradeList[276] ) total = total + this.state.buildingList[1] * 0.01;
+    if (buildingIndex == 13 && this.state.upgradeList[277] ) total = total + this.state.buildingList[1] * 0.01;
+    if (buildingIndex == 14 && this.state.upgradeList[278] ) total = total + this.state.buildingList[1] * 0.01;
+    if (buildingIndex == 15 && this.state.upgradeList[279] ) total = total + this.state.buildingList[1] * 0.01;
+    if (buildingIndex == 16 && this.state.upgradeList[280] ) total = total + this.state.buildingList[1] * 0.01;
+    if (buildingIndex == 17 && this.state.upgradeList[281] ) total = total + this.state.buildingList[1] * 0.01;
+    if (buildingIndex == 18 && this.state.upgradeList[282] ) total = total + this.state.buildingList[1] * 0.01;
+    // TODO calculate synergy upgrade
+
+
+    this.buildingMultiplier[buildingIndex] = total;
+  }
 
 
   /**
@@ -161,6 +197,8 @@ class Game extends React.Component {
     this.state.buildingList.forEach((count, index) => {
       sps += this.modifiedSps[index] * this.buildingMultiplier[index] * this.globalMultiplier * count
     });
+    console.log("macho: ", this.modifiedSps[1]);
+    console.log("this.buildingMultiplier[2]: ", this.buildingMultiplier[2]);
     console.log(sps);
     this.setState({
       subscriberPerSecond: sps
@@ -186,6 +224,7 @@ class Game extends React.Component {
   unlockUpgrade = (index) => {
     const newList = this.state.upgradeList.slice(0);
     let needUpdate = 0
+    console.log("index", index);
     if (typeof(index) == 'number')
     {
       if (newList[index] === UpgradeMode.LOCK)
@@ -218,7 +257,7 @@ class Game extends React.Component {
 
   handleTieredUpgrade = (upgradeIndex) => {
     // don't update sps if the upgrade is thousandmochi related
-    if (upgradeIndex >= 3 && upgradeIndex <= 12)
+    if (upgradeIndex >= 3 && upgradeIndex <= 13)
     {
       return;
     }
@@ -227,9 +266,28 @@ class Game extends React.Component {
     return;
   }
 
-  handleMarryTarouTypeUpgrade = () => {
 
-
+  handleMachoTypeUpgrade = (upgradeIndex) => {
+    this.modifiedSps[1] = this.modifiedSps[1] * 2;
+    /*
+    if (upgradeIndex === 266) this.recalculateBuildingMultiplier(2);
+    else if (upgradeIndex === 267) this.recalculateBuildingMultiplier(3);
+    else if (upgradeIndex === 268) this.recalculateBuildingMultiplier(4);
+    else if (upgradeIndex === 269) this.recalculateBuildingMultiplier(5);
+    else if (upgradeIndex === 270) this.recalculateBuildingMultiplier(6);
+    else if (upgradeIndex === 271) this.recalculateBuildingMultiplier(7);
+    else if (upgradeIndex === 272) this.recalculateBuildingMultiplier(8);
+    else if (upgradeIndex === 273) this.recalculateBuildingMultiplier(9);
+    else if (upgradeIndex === 274) this.recalculateBuildingMultiplier(10);
+    else if (upgradeIndex === 275) this.recalculateBuildingMultiplier(11);
+    else if (upgradeIndex === 276) this.recalculateBuildingMultiplier(12);
+    else if (upgradeIndex === 277) this.recalculateBuildingMultiplier(13);
+    else if (upgradeIndex === 278) this.recalculateBuildingMultiplier(14);
+    else if (upgradeIndex === 279) this.recalculateBuildingMultiplier(15);
+    else if (upgradeIndex === 280) this.recalculateBuildingMultiplier(16);
+    else if (upgradeIndex === 281) this.recalculateBuildingMultiplier(17);
+    else if (upgradeIndex === 282) this.recalculateBuildingMultiplier(18);
+    */
   }
 
 
@@ -247,7 +305,7 @@ class Game extends React.Component {
   /**
    * Name: handleUpgradeEffect
    *
-   * Description: handle the building's sps and all sps multiplier
+   * Description: handle the ipgrade effect after you but some upgrade
    *
    * @param {integer} index           the upgrade id.
    */
@@ -262,17 +320,18 @@ class Game extends React.Component {
       // tiered upgrade
       this.handleTieredUpgrade(upgradeIndex);
     }
-    else if (upgradeIndex >=234 && upgradeIndex <= 249)
+    else if (upgradeIndex >= 266 && upgradeIndex <= 282)
     {
-      // grandma type upgrade
+      // marry macho type upgrade
+      this.handleMachoTypeUpgrade(upgradeIndex);
 
     }
-    else if (upgradeIndex >=234 && upgradeIndex <= 249)
+    else if (upgradeIndex >= 283 && upgradeIndex <= 314)
     {
       // synergy upgrade
 
     }
-    else if (upgradeIndex >=234 && upgradeIndex <= 249)
+    else if (upgradeIndex >= 315 && upgradeIndex <= 518)
     {
       // cookie upgrade
 
@@ -299,11 +358,18 @@ class Game extends React.Component {
       upgradeList: newList,
       totalSubscriber: newTotal
     }, () => {
-      if (upgradeIndex >= 0 && upgradeIndex <= 12)
+      if (upgradeIndex >= 0 && upgradeIndex <= 13)
       {
         this.recalculateMochiruMultiplier();
         this.calculateSPC();
       }
+
+      if (upgradeIndex >= 266 && upgradeIndex <= 282)
+      {
+        const machoUpgradeStart = 266;
+        this.recalculateBuildingMultiplier(upgradeIndex - machoUpgradeStart + 2)
+      }
+
       this.updateSPS();
     });
 
@@ -315,51 +381,68 @@ class Game extends React.Component {
    *
    * Description: chekc if the new upgrade can be unlock when user buy new building.
    *
-   * @param {integer} index           the upgrade id.
+   * @param {integer} buildingIndex     the buliding id.
+   * @param {integer} amount            building amout.
    */
-  checkUpgradeUnlock = (index, amount) => {//{{{
+  checkUpgradeUnlock = (buildingIndex, amount) => {//{{{
     let indexList = [];
-    console.log(index, amount);
+    console.log(buildingIndex, amount);
     // check the tier upgrade
-    if (index == 0)
+    if (buildingIndex == 0)
     {
-      if (amount >= 1) indexList.push(0, 1);
-      if (amount >= 10) indexList.push(2);
-      if (amount >= 25) indexList.push(3);
-      if (amount >= 50) indexList.push(4);
-      if (amount >= 100) indexList.push(4);
-      if (amount >= 150) indexList.push(6);
-      if (amount >= 200) indexList.push(7);
-      if (amount >= 250) indexList.push(8);
-      if (amount >= 300) indexList.push(9);
-      if (amount >= 350) indexList.push(10);
-      if (amount >= 400) indexList.push(11);
-      if (amount >= 450) indexList.push(12);
-      if (amount >= 500) indexList.push(13);
+      if (buildingIndex >= 1) indexList.push(0, 1);
+      if (buildingIndex >= 10) indexList.push(2);
+      if (buildingIndex >= 25) indexList.push(3);
+      if (buildingIndex >= 50) indexList.push(4);
+      if (buildingIndex >= 100) indexList.push(4);
+      if (buildingIndex >= 150) indexList.push(6);
+      if (buildingIndex >= 200) indexList.push(7);
+      if (buildingIndex >= 250) indexList.push(8);
+      if (buildingIndex >= 300) indexList.push(9);
+      if (buildingIndex >= 350) indexList.push(10);
+      if (buildingIndex >= 400) indexList.push(11);
+      if (buildingIndex >= 450) indexList.push(12);
+      if (buildingIndex >= 500) indexList.push(13);
     }
     else
     {
-      let baseUpgradeID = 14 * index;
-      if (amount >= 1) indexList.push(baseUpgradeID);
-      if (amount >= 5) indexList.push(baseUpgradeID + 1);
-      if (amount >= 25) indexList.push(baseUpgradeID + 2);
-      if (amount >= 50) indexList.push(baseUpgradeID + 3);
-      if (amount >= 100) indexList.push(baseUpgradeID + 4);
-      if (amount >= 150) indexList.push(baseUpgradeID + 5);
-      if (amount >= 200) indexList.push(baseUpgradeID + 6);
-      if (amount >= 250) indexList.push(baseUpgradeID + 7);
-      if (amount >= 300) indexList.push(baseUpgradeID + 8);
-      if (amount >= 350) indexList.push(baseUpgradeID + 9);
-      if (amount >= 400) indexList.push(baseUpgradeID + 10);
-      if (amount >= 450) indexList.push(baseUpgradeID + 11);
-      if (amount >= 500) indexList.push(baseUpgradeID + 12);
-      if (amount >= 550) indexList.push(baseUpgradeID + 13);
+      let baseUpgradeID = 14 * buildingIndex;
+      if (buildingIndex >= 1) indexList.push(baseUpgradeID);
+      if (buildingIndex >= 5) indexList.push(baseUpgradeID + 1);
+      if (buildingIndex >= 25) indexList.push(baseUpgradeID + 2);
+      if (buildingIndex >= 50) indexList.push(baseUpgradeID + 3);
+      if (buildingIndex >= 100) indexList.push(baseUpgradeID + 4);
+      if (buildingIndex >= 150) indexList.push(baseUpgradeID + 5);
+      if (buildingIndex >= 200) indexList.push(baseUpgradeID + 6);
+      if (buildingIndex >= 250) indexList.push(baseUpgradeID + 7);
+      if (buildingIndex >= 300) indexList.push(baseUpgradeID + 8);
+      if (buildingIndex >= 350) indexList.push(baseUpgradeID + 9);
+      if (buildingIndex >= 400) indexList.push(baseUpgradeID + 10);
+      if (buildingIndex >= 450) indexList.push(baseUpgradeID + 11);
+      if (buildingIndex >= 500) indexList.push(baseUpgradeID + 12);
+      if (buildingIndex >= 550) indexList.push(baseUpgradeID + 13);
     }
 
-
-
-
-
+    // marry macho upgrade
+    if (buildingIndex >= 2 && amount >= 15 && this.state.buildingList[1] >= 1)
+    {
+      const machoUpgradeStart = 266;
+      // minux 2 to fit the index, farm index is 2
+      console.log(typeof buildingIndex)
+      indexList.push(machoUpgradeStart + buildingIndex - 2);
+    }
+    else if (buildingIndex == 1)
+    {
+      const machoUpgradeStart = 266;
+      let i = 2;
+      for (i = 2; i < BUILDING_MAX; i++)
+      {
+        if (this.state.buildingList[i] >= 15)
+        {
+          indexList.push(machoUpgradeStart + i - 2);
+        }
+      }
+    }
 
 
     this.unlockUpgrade(indexList);
@@ -389,14 +472,15 @@ class Game extends React.Component {
     {
       newList[index] = 0;
     }
-    this.checkUpgradeUnlock(index, newList[index]);
+    this.checkUpgradeUnlock(parseInt(index), newList[index]);
 
     this.setState({
       buildingList: newList,
       totalSubscriber: newTotal
     },  ()=>{
-      this.recalculateMochiruMultiplier()
+      this.recalculateMochiruMultiplier();
       this.calculateSPC();
+      this.recalculateBuildingMultiplier(-1);
       this.updateSPS();
     });
 

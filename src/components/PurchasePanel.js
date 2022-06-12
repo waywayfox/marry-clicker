@@ -21,7 +21,7 @@ const BuildingsName = [
     id: 0
   },
   {
-    name: "marry hamustar",
+    name: "Macho",
     id: 1
   },
   {

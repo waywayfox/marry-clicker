@@ -1,7 +1,7 @@
 
 do the other upgrade handle
-do the news part
-check the flavor cookie part
+do the css, overflow part:w
+do the news showing
 
 
 

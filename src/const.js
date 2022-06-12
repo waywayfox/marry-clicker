@@ -1648,103 +1648,103 @@ export const UpgradeDetailList = [
   {
     id: 266,
     price: 55000,
-    title: "farmGrandmaType",
+    title: "farmMachoType",
     description: "double the grandma production, per grandma have +1% farm prodeuction."
   },
   {
     id: 267,
     price: 600000,
-    title: "MineGrandmaType",
+    title: "MineMachoType",
     description: "double the grandma production, per grandma have +1% Mine prodeuction."
   },
   {
     id: 268,
     price: 6.5e6,
-    title: "FactoryGrandmaType",
+    title: "FactoryMachoType",
     description: "double the grandma production, per grandma have +1% Factory prodeuction."
   },
   {
     id: 269,
     price: 7e7,
-    title: "BankGrandmaType",
+    title: "BankMachoType",
     description: "double the grandma production, per grandma have +1% Bank prodeuction."
   },
   {
     id: 270,
     price: 1e9,
-    title: "TempleGrandmaType",
+    title: "TempleMachoType",
     description: "double the grandma production, per grandma have +1% Temple prodeuction."
   },
   {
     id: 271,
     price: 1.65e10,
-    title: "WizardGrandmaType",
+    title: "WizardMachoType",
     description: "double the grandma production, per grandma have +1% Wizard prodeuction."
   },
   {
     id: 272,
     price: 2.55e11,
-    title: "ShipmentGrandmaType",
+    title: "ShipmentMachoType",
     description: "double the grandma production, per grandma have +1% Shipment prodeuction."
   },
   {
     id: 273,
     price: 3.75e12,
-    title: "AlchemyGrandmaType",
+    title: "AlchemyMachoType",
     description: "double the grandma production, per grandma have +1% Alchemy prodeuction."
   },
   {
     id: 274,
     price: 5e13,
-    title: "PortalGrandmaType",
+    title: "PortalMachoType",
     description: "double the grandma production, per grandma have +1% Portal prodeuction."
   },
   {
     id: 275,
     price: 7e14,
-    title: "TimeMachineGrandmaType",
+    title: "TimeMachineMachoType",
     description: "double the grandma production, per grandma have +1% TimeMachine prodeuction."
   },
   {
     id: 276,
     price: 8.5e15,
-    title: "AntimatterCondenserGrandmaType",
+    title: "AntimatterCondenserMachoType",
     description: "double the grandma production, per grandma have +1% AntimatterCondenser prodeuction."
   },
   {
     id: 277,
     price: 1.05e17,
-    title: "PrismGrandmaType",
+    title: "PrismMachoType",
     description: "double the grandma production, per grandma have +1% Prism prodeuction."
   },
   {
     id: 278,
     price: 1.3e18,
-    title: "FractalEngineGrandmaType",
+    title: "FractalEngineMachoType",
     description: "double the grandma production, per grandma have +1% FractalEngine prodeuction."
   },
   {
     id: 279,
     price: 1.55e19,
-    title: "ChancemakerGrandmaType",
+    title: "ChancemakerMachoType",
     description: "double the grandma production, per grandma have +1% Chancemaker prodeuction."
   },
   {
     id: 280,
     price: 3.55e21,
-    title: "Javascript ConsoleGrandmaType",
+    title: "Javascript ConsoleMachoType",
     description: "double the grandma production, per grandma have +1% Javascript Console prodeuction."
   },
   {
     id: 281,
     price: 6e23,
-    title: "IdleverseGrandmaType",
+    title: "IdleverseMachoType",
     description: "double the grandma production, per grandma have +1% Idleverse prodeuction."
   },
   {
     id: 282,
     price: 9.5e25,
-    title: "CortexBakerGrandmaType",
+    title: "CortexBakerMachoType",
     description: "double the grandma production, per grandma have +1% CortexBaker prodeuction."
   },
 
@@ -2678,510 +2678,583 @@ export const UpgradeDetailList = [
   },
   {
     id: 437,
+    price: 1e60,
+    title: "standard123",
+    description: "increase 5% production"
+  },
+  {
+    id: 438,
+    price: 3.16e60,
+    title: "standard124",
+    description: "increase 5% production"
+  },
+  {
+    id: 439,
+    price: 1e61,
+    title: "standard125",
+    description: "increase 5% production"
+  },
+  {
+    id: 440,
+    price: 3.16e61,
+    title: "standard126",
+    description: "increase 5% production"
+  },
+  {
+    id: 441,
+    price: 1e62,
+    title: "standard127",
+    description: "increase 5% production"
+  },
+  {
+    id: 442,
+    price: 3.16e62,
+    title: "standard128",
+    description: "increase 5% production"
+  },
+  {
+    id: 443,
+    price: 1e63,
+    title: "standard129",
+    description: "increase 5% production"
+  },
+  {
+    id: 444,
+    price: 3.16e63,
+    title: "standard130",
+    description: "increase 5% production"
+  },
+  {
+    id: 445,
+    price: 1e64,
+    title: "standard131",
+    description: "increase 5% production"
+  },
+  {
+    id: 446,
+    price: 3.16e64,
+    title: "standard132",
+    description: "increase 5% production"
+  },
+  {
+    id: 447,
     price: 1e14,
     title: "britishTea1",
     description: "increase 2% production"
   },
   {
-    id: 438,
+    id: 448,
     price: 1e14,
     title: "britishTea2",
     description: "increase 2% production"
   },
   {
-    id: 439,
+    id: 449,
     price: 1e14,
     title: "britishTea3",
     description: "increase 2% production"
   },
   {
-    id: 440,
+    id: 450,
     price: 1e14,
     title: "britishTea4",
     description: "increase 2% production"
   },
   {
-    id: 441,
+    id: 451,
     price: 1e14,
     title: "britishTea5",
     description: "increase 2% production"
   },
   {
-    id: 442,
+    id: 452,
     price: 1e14,
     title: "britishTea6",
     description: "increase 2% production"
   },
   {
-    id: 443,
+    id: 453,
     price: 1e16,
     title: "brand1",
     description: "increase 3% production"
   },
   {
-    id: 444,
+    id: 454,
     price: 1e16,
     title: "brand2",
     description: "increase 3% production"
   },
   {
-    id: 445,
+    id: 455,
     price: 1e16,
     title: "brand3",
     description: "increase 3% production"
   },
   {
-    id: 446,
+    id: 456,
     price: 1e16,
     title: "brand4",
     description: "increase 3% production"
   },
   {
-    id: 447,
+    id: 457,
     price: 5e15,
     title: "brand5",
     description: "increase 2% production"
   },
   {
-    id: 448,
+    id: 458,
     price: 5e15,
     title: "brand6",
     description: "increase 2% production"
   },
   {
-    id: 449,
+    id: 459,
     price: 5e15,
     title: "brand7",
     description: "increase 2% production"
   },
   {
-    id: 450,
+    id: 460,
     price: 5e15,
     title: "brand8",
     description: "increase 2% production"
   },
   {
-    id: 451,
+    id: 461,
     price: 5e15,
     title: "brand9",
     description: "increase 2% production"
   },
   {
-    id: 452,
+    id: 462,
     price: 5e21,
     title: "brand10",
     description: "increase 3% production"
   },
   {
-    id: 453,
+    id: 463,
     price: 5e21,
     title: "brand11",
     description: "increase 3% production"
   },
   {
-    id: 454,
+    id: 464,
     price: 5e24,
     title: "brand12",
     description: "increase 2% production"
   },
   {
-    id: 455,
+    id: 465,
     price: 5e27,
     title: "brand13",
     description: "increase 2% production"
   },
   {
-    id: 456,
+    id: 466,
     price: 5e30,
     title: "brand14",
     description: "increase 2% production"
   },
   {
-    id: 457,
+    id: 467,
     price: 5e33,
     title: "brand15",
     description: "increase 2% production"
   },
   {
-    id: 458,
+    id: 468,
     price: 5e36,
     title: "brand16",
     description: "increase 2% production"
   },
   {
-    id: 459,
+    id: 469,
     price: 9999,
     title: "macarons1",
     description: "increase 3% production"
   },
   {
-    id: 460,
+    id: 470,
     price: 1e7,
     title: "macarons2",
     description: "increase 3% production"
   },
   {
-    id: 461,
+    id: 471,
     price: 1e10,
     title: "macarons3",
     description: "increase 3% production"
   },
   {
-    id: 462,
+    id: 472,
     price: 1e13,
     title: "macarons4",
     description: "increase 3% production"
   },
   {
-    id: 463,
+    id: 473,
     price: 1e16,
     title: "macarons5",
     description: "increase 3% production"
   },
   {
-    id: 464,
+    id: 474,
     price: 1e19,
     title: "macarons6",
     description: "increase 3% production"
   },
   {
-    id: 465,
+    id: 475,
     price: 1e22,
     title: "macarons7",
     description: "increase 3% production"
   },
   {
-    id: 466,
+    id: 476,
     price: 1e25,
     title: "macarons8",
     description: "increase 3% production"
   },
   {
-    id: 467,
+    id: 477,
     price: 1e28,
     title: "macarons9",
     description: "increase 3% production"
   },
   {
-    id: 468,
+    id: 478,
     price: 1e23,
     title: "butter1",
     description: "increase 4% production"
   },
   {
-    id: 469,
+    id: 479,
     price: 5e23,
     title: "butter2",
     description: "increase 4% production"
   },
   {
-    id: 470,
+    id: 480,
     price: 1e24,
     title: "butter3",
     description: "increase 4% production"
   },
   {
-    id: 471,
+    id: 481,
     price: 5e24,
     title: "butter4",
     description: "increase 4% production"
   },
   {
-    id: 472,
+    id: 482,
     price: 1e25,
     title: "butter5",
     description: "increase 4% production"
   },
   {
-    id: 473,
+    id: 483,
     price: 1e35,
     title: "maybe1",
     description: "increase 4% production"
   },
   {
-    id: 474,
+    id: 484,
     price: 1e37,
     title: "maybe2",
     description: "increase 4% production"
   },
   {
-    id: 475,
+    id: 485,
     price: 1e39,
     title: "maybe3",
     description: "increase 4% production"
   },
   {
-    id: 476,
+    id: 486,
     price: 1e41,
     title: "maybe4",
     description: "increase 4% production"
   },
   {
-    id: 477,
+    id: 487,
     price: 1e43,
     title: "maybe5",
     description: "increase 4% production"
   },
   {
-    id: 478,
+    id: 488,
     price: 1e45,
     title: "maybe6",
     description: "increase 4% production"
   },
   {
-    id: 479,
+    id: 489,
+    price: 1e47,
+    title: "maybe7",
+    description: "increase 5% production"
+  },
+  {
+    id: 490,
     price: 1e34,
     title: "not1",
     description: "increase 4% production"
   },
   {
-    id: 480,
+    id: 491,
     price: 1e36,
     title: "not2",
     description: "increase 4% production"
   },
   {
-    id: 481,
+    id: 492,
     price: 1e38,
     title: "not3",
     description: "increase 4% production"
   },
   {
-    id: 482,
+    id: 493,
     price: 1e40,
     title: "not4",
     description: "increase 4% production"
   },
   {
-    id: 483,
+    id: 494,
     price: 1e42,
     title: "not5",
     description: "increase 1% production"
   },
   {
-    id: 484,
+    id: 495,
     price: 1e44,
     title: "not6",
     description: "increase 5% production"
   },
   {
-    id: 485,
+    id: 496,
     price: 1e46,
     title: "not7",
     description: "increase 5% production"
   },
   {
-    id: 486,
+    id: 497,
     price: 1e31,
     title: "pastries1",
     description: "increase 4% production"
   },
   {
-    id: 487,
+    id: 498,
     price: 1e33,
     title: "pastries2",
     description: "increase 4% production"
   },
   {
-    id: 488,
+    id: 499,
     price: 1e35,
     title: "pastries3",
     description: "increase 4% production"
   },
   {
-    id: 489,
+    id: 500,
     price: 1e37,
     title: "pastries4",
     description: "increase 4% production"
   },
   {
-    id: 490,
+    id: 501,
     price: 1e39,
     title: "pastries5",
     description: "increase 4% production"
   },
   {
-    id: 491,
+    id: 502,
     price: 1e41,
     title: "pastries6",
     description: "increase 4% production"
   },
   {
-    id: 492,
+    id: 503,
     price: 1e43,
     title: "pastries7",
     description: "increase 4% production"
   },
   {
-    id: 493,
+    id: 504,
     price: 1e45,
     title: "pastries8",
     description: "increase 4% production"
   },
   {
-    id: 494,
+    id: 505,
     price: 100,
     title: "lagacy1",
     description: "increase 1% production"
   },
   {
-    id: 495,
+    id: 506,
     price: 1e12,
     title: "lagacy2",
     description: "increase 10% production"
   },
   {
-    id: 496,
+    id: 507,
     price: 1e29,
     title: "chocolatebutter1",
     description: "increase 10% production"
   },
   {
-    id: 497,
+    id: 508,
     price: 1e32,
     title: "chocolatebutter2",
     description: "increase 10% production"
   },
   {
-    id: 498,
+    id: 509,
     price: 1e35,
     title: "chocolatebutter3",
     description: "increase 10% production"
   },
   {
-    id: 499,
+    id: 510,
     price: 1e38,
     title: "chocolatebutter4",
     description: "increase 10% production"
   },
   {
-    id: 500,
+    id: 511,
     price: 1e41,
     title: "chocolatebutter5",
     description: "increase 10% production"
   },
   {
-    id: 501,
+    id: 512,
     price: 1e44,
     title: "chocolatebutter6",
     description: "increase 10% production"
   },
   {
-    id: 502,
+    id: 513,
     price: 1e47,
     title: "chocolatebutter7",
     description: "increase 10% production"
   },
   {
-    id: 503,
+    id: 514,
     price: 1e50,
     title: "chocolatebutter8",
     description: "increase 10% production"
   },
   {
-    id: 504,
+    id: 515,
     price: 1e53,
     title: "chocolatebutter9",
     description: "increase 10% production"
   },
   {
-    id: 505,
+    id: 516,
     price: 1e56,
     title: "chocolatebutter10",
     description: "increase 10% production"
   },
   {
-    id: 506,
+    id: 517,
     price: 1e59,
     title: "chocolatebutter11",
     description: "increase 10% production"
   },
-
-  // kitte
   {
-    id: 507,
+    id: 518,
+    price: 1e62,
+    title: "chocolatebutter12",
+    description: "increase 10% production"
+  },
+
+  // kitten
+  {
+    id: 519,
     price: 9e6,
     title: "kitten1",
     description: "increase 0.100000 factor"
   },
   {
-    id: 508,
+    id: 520,
     price: 9e9,
     title: "kitten2",
     description: "increase 0.125000 factor"
   },
   {
-    id: 509,
+    id: 521,
     price: 9e13,
     title: "kitten3",
     description: "increase 0.150000 factor"
   },
   {
-    id: 510,
+    id: 522,
     price: 9e16,
     title: "kitten4",
     description: "increase 0.175000 factor"
   },
   {
-    id: 511,
+    id: 523,
     price: 9e20,
     title: "kitten5",
     description: "increase 0.200000 factor"
   },
   {
-    id: 512,
+    id: 524,
     price: 9e23,
     title: "kitten6",
     description: "increase 0.200000 factor"
   },
   {
-    id: 513,
+    id: 525,
     price: 9e26,
     title: "kitten7",
     description: "increase 0.200000 factor"
   },
   {
-    id: 514,
+    id: 526,
     price: 9e29,
     title: "kitten8",
     description: "increase 0.200000 factor"
   },
   {
-    id: 515,
+    id: 527,
     price: 9e32,
     title: "kitten9",
     description: "increase 0.200000 factor"
   },
   {
-    id: 516,
+    id: 528,
     price: 9e35,
     title: "kitten10",
     description: "increase 0.175000 factor"
   },
   {
-    id: 517,
+    id: 529,
     price: 9e38,
     title: "kitten11",
     description: "increase 0.150000 factor"
   },
   {
-    id: 518,
+    id: 530,
     price: 9e41,
     title: "kitten12",
     description: "increase 0.125000 factor"
   },
   {
-    id: 519,
+    id: 531,
     price: 9e44,
     title: "kitten13",
     description: "increase 0.115000 factor"
   },
   {
-    id: 520,
+    id: 532,
     price: 9e47,
     title: "kitten14",
-    description: "increase 0.11 factor"
+    description: "increase 0.110000 factor"
   },
+
 
 
   {
