@@ -1,8 +1,7 @@
 
 do the other upgrade handle
-do the css, overflow part:w
-do the news showing
-
+do the css, overflow part
+do more news logic
 
 
 

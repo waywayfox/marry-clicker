@@ -1,5 +1,10 @@
 import React from 'react';
 
+import { Button } from 'antd';
+
+
+
+
 class ClickingWindow extends React.Component {
   constructor(props) {
     super(props);
@@ -12,9 +17,9 @@ class ClickingWindow extends React.Component {
 
   render() {
     return (
-      <button onClick={this.handleClick}>
+      <Button onClick={this.handleClick}>
         mochimochi
-      </button>
+      </Button>
     );
   }
 }
