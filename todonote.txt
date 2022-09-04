@@ -5,3 +5,6 @@ do more news logic
 
 
 
+test for ipad development
+
+
